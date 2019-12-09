@@ -1,0 +1,629 @@
+id,approved,name,name_long,ipaddr,city,country,region_continent,media,tech_email,tech_phone,policy_email,policy_phone,website,url_stats,proto_unicast,proto_multicast,proto_ipv6
+1,Y,Equinix Ashburn,Equinix Ashburn Exchange,206.223.115.0/24,Ashburn,US,North America,Ethernet,support@equinix.com,,support@equinix.com,,https://ix.equinix.com,,1,0,1
+2,Y,Equinix Chicago,Equinix Chicago Exchange,206.223.119.0/25,Chicago,US,North America,Ethernet,support@equinix.com,,support@equinix.com,,https://ix.equinix.com,,1,0,1
+3,Y,Equinix Dallas,Equinix Dallas Exchange,206.223.118.0/25,Dallas,US,North America,Ethernet,support@equinix.com,,support@equinix.com,,https://ix.equinix.com,,1,0,1
+4,Y,Equinix Los Angeles,Equinix Los Angeles Exchange,206.223.123.0/25,Los Angeles,US,North America,Ethernet,support@equinix.com,,support@equinix.com,,https://ix.equinix.com,,1,0,1
+5,Y,Equinix San Jose,Equinix San Jose / Bay Area Exchange,206.223.119.0/24,San Jose,US,North America,Ethernet,support@equinix.com,,support@equinix.com,,https://ix.equinix.com,,1,0,1
+7,Y,Equinix Palo Alto,Equinix Internet Exchange Palo Alto,198.32.176.0/24,Palo Alto,US,North America,Ethernet,servicesupport@equinix.com,+1-866-811-8720,servicesupport@equinix.com,,https://ix.equinix.com,,1,1,1
+9,Y,Equinix Atlanta,Equinix Internet Exchange Atlanta,198.32.182.0/24,Atlanta,US,North America,Ethernet,servicesupport@equinix.com,+1-866-811-8720,servicesupport@equinix.com,,https://ix.equinix.com,,1,1,1
+10,Y,Equinix Vienna (VA),"Equinix Internet Exchange Vienna, VA",198.32.190.0/24,Vienna,US,North America,Ethernet,servicesupport@equinix.com,+1-866-811-8720,servicesupport@equinix.com,,https://ix.equinix.com,,1,1,1
+11,Y,Equinix Seattle,Equinix Internet Exchange Seattle,198.32.134.0/24,Seattle,US,North America,Ethernet,servicesupport@equinix.com,+1-866-811-8720,servicesupport@equinix.com,,https://ix.equinix.com,,1,1,1
+12,Y,Equinix New York,Equinix Internet Exchange New York,198.32.118.0/24,New York,US,North America,Ethernet,servicesupport@equinix.com,+1-866-811-8720,servicesupport@equinix.com,,https://ix.equinix.com,,1,1,1
+13,Y,SIX,Seattle Internet Exchange,198.32.180.0/24,Seattle,US,North America,Ethernet,noc@seattleix.net,,info@seattleix.net,,http://www.seattleix.net/,http://www.seattleix.net/agg.htm,1,1,1
+14,Y,NYIIX,New York International Internet eXchange,198.32.160.0/24,New York,US,North America,Ethernet,iixeng@telehouse.com,+1 718 355 2525,,,http://www.nyiix.net/,http://www.nyiix.net/mrtg/,1,0,1
+15,Y,MAE East,,198.32.187.0/24,No. VA & NYC,US,North America,Ethernet,info@mae.net,,,,www.mae.net,,1,,
+16,Y,MAE West,,198.32.200.0/24,San Jose & Los Angeles,US,North America,Ethernet,info@mae.net,,,,www.mae.net,,1,,
+17,Y,NOTA,NAP Of The Americas,,Miami,US,North America,Ethernet,IXPsupport@one.verizon.com,+1 (305) 328-8000,remco.donker@nl.verizon.com,,www.verizonenterprise.com,,1,0,1
+18,Y,LINX Juniper LAN,London Internet Exchange Ltd.,195.66.224.0/23,London,UK,Europe,Ethernet,support@linx.net,+44 20 76453500,info@linx.net,+44 20 7645 3501,https://www.linx.net/,https://stats.linx.net/,1,1,1
+20,Y,MAE Central,,198.32.139.0/24,Dallas & Chicago,US,North America,Ethernet,info@mae.net,,,,www.mae.net,,1,,
+21,Y,IX Australia WA,West Australian Internet Exchange (WAIX),198.32.212.0/24,Perth/WA,AU,Australia,Ethernet,noc@ix.asn.au,+61893223022,peering@ix.asn.au,+61893223022,http://www.waia.asn.au/waix,,1,0,1
+22,Y,Telx Atlanta,"TIE:Atlanta, Atlanta Internet Exchange, AtlantaIX",198.32.132.0/24,Atlanta,US,North America,Ethernet,tie@telx.com,1.888.835.9832,tie@telx.com,1.888.835.9832,http://tie.telx.com/,http://tie.telx.com/usage.pl,1,0,1
+23,Y,LAIIX,Los Angeles International Internet eXchange,198.32.146.0/24,Los Angeles,US,North America,Ethernet,,,,,http://www.laiix.net/,http://www.laiix.net/mrtg/index.shtml,1,0,0
+24,Y,TorIX,Toronto Internet Exchange Community,198.32.245.0/24,Toronto,CA,North America,Ethernet,support@torix.ca,,peering@torix.ca,,http://www.torix.ca/,http://www.torix.ca/stats.php,1,0,1
+25,Y,MXP,Massachusetts eXchange Point,198.32.178.0/24,Boston,US,North America,Ethernet,noc@gnaps.com,617-689-3200,,,http://www.bmxp.net/,telnet://route-server.bmxp.net/,1,0,0
+26,Y,AMS-IX,Amsterdam Internet Exchange,195.69.144.0/23,Amsterdam,NL,Europe,Ethernet,noc@ams-ix.net,+31 20 5141717,info@ams-ix.net,+31 20 3058999,http://www.ams-ix.net/,https://www.ams-ix.net/statistics/,1,0,1
+29,Y,Equinix Zurich,"Equinix Zurich, formerly TIX",194.42.48.0,Zurich,CH,Europe,Ethernet,,,,,https://ix.equinix.com,http://traffic.tix.ch/mrtg/tix-total.cgi/,1,0,0
+30,Y,JPIX,Japan Internet Exchange,,Tokyo,JP,Asia Pacific,Ethernet,,,,,http://www.jpix.ad.jp/,,1,0,1
+31,Y,DE-CIX Frankfurt,"DE-CIX, the global Internet Exchange",80.81.192.0/23 IPv6: 2001:7fa::/48 Multicast: 80.81.194.0/24,Frankfurt,DE,Europe,Ethernet,support@de-cix.net,+49 69 1730 902 11,sales@de-cix.net,+49 69 1730 902 12,http://www.de-cix.net,http://www.de-cix.net/info/traffic.html,1,1,1
+32,Y,SFIX,San Francisco Internet Exchange,198.32.129.0/24,San Francisco,US,North America,Ethernet,,,,,http://www.sfix.org/,,1,0,0
+33,Y,CIXP,CERN Internet eXchange Point,192.65.185.0/24,Geneva,CH,Europe,Ethernet,cixp.support@cern.ch,,,,http://www.cixp.ch/,http://www.cixp.ch/stat.html,1,0,1
+34,Y,SFINX,Service for French INternet eXchange,194.68.129.0/24,Paris,FR,Europe,Ethernet,support@sfinx.fr,+33 1 53 94 20 40,contact@sfinx.fr,+ 33 4 67 16 38 23,http://www.sfinx.fr/,,1,1,1
+35,Y,MIX-IT,Milano Internet eXchange,217.29.66.0/24,Milan,IT,Europe,Ethernet,noc@mix-it.net,+39 02 4091 5701,info@mix-it.net,+39 02 4091 5701,http://www.mix-it.net/,http://www.mix-it.net/brontolo/cgi-bin/14all-Totale_globale.cgi?log=totaltraffic_global,1,0,1
+40,Y,PARIX,,198.32.247.0/24,Paris,FR,Europe,Ethernet,,,,,http://www.parix.net/,http://www.parix.net/cgi-bin/mrtg-rrd.cgi/giga.parix.net_total.html,1,1,1
+41,Y,NYCX,Free NYIIX Alternative,198.32.229.0/24,New York,US,North America,Ethernet,sjs@nac.net,,sjs@nac.net,,http://www.nycx.net/,http://www.nycx.net/index.php?page=Traffic,1,0,0
+42,Y,HKIX,Hong Kong Internet Exchange,202.40.161.0/24,Hong Kong,HK,Asia Pacific,Ethernet,hkix-noc@cuhk.edu.hk,,hkix-noc@cuhk.edu.hk,+852 3943-8800,http://www.hkix.net/,http://www.cuhk.edu.hk/hkix/stat/aggt/hkix-aggregate.html,1,0,1
+43,Y,TWIX,Taiwan Internet Exchange,210.62.255.0/24,Taipei,TW,Asia Pacific,Ethernet,,,,,http://www.twix.net,,0,0,0
+44,Y,Manila IX,Manila Internet Exchange,202.0.91.0/24,Manila ,PH,Asia Pacific,Ethernet,,,,,http://www.etpi.com/Products/index.asp?ID=39&MCID=3,,0,0,0
+48,Y,INEX LAN1,Internet Neutral Exchange Association Ltd.,193.1.29.192/27,Dublin,IE,Europe,Ethernet,operations@inex.ie,+353 1 5313337,manager@inex.ie,+353 1 4332052,http://www.inex.ie/,https://www.inex.ie/technical/stats,1,1,1
+49,Y,LIPEX,London Internet Providers Exchange,193.109.219.0/24,London,UK,Europe,Ethernet,support@lipex.net,+44 (0)870 432 9202,,,http://www.lipex.net,http://www.lipex.net/traffic/,1,0,1
+50,Y,VIX,Vienna Internet Exchange,193.203.0.0/25,Vienna,AT,Europe,Ethernet,noc@vix.at,+43 1 4277-14030,,,http://www.vix.at/,http://www.vix.at/vix_statistics.html,1,0,1
+51,Y,XchangePoint,XchangePoint Europe,217.79.160.0/23,London,UK,Europe,Ethernet,,,,,http://www.xchangepoint.net/,http://traffic.xchangepoint.net/cgi-bin/publicstats,1,0,1
+52,Y,KINX,Korean Internet Neutral Exchange,192.145.251.0/24,Seoul,KR,Asia Pacific,Ethernet,,02-2187-6385,info@kinx.net,02-2187-6385,www.kinx.net,,1,0,1
+53,Y,LONAP,London Network Access Point,193.203.5.0/24,London,UK,Europe,Ethernet,,,,,http://www.lonap.net/,http://www.lonap.net/mrtg/lonap-total.html,1,1,1
+55,Y,BiX,Budapest Internet Exchange,193.188.137.0/24,Budapest,HU,Europe,Ethernet,bix-admin@iszt.hu,+3613497985,kalmar@iszt.hu,+36 1 238-0115,http://www.bix.hu/,http://www.bix.hu/?lang=en&page=stat,1,0,1
+56,Y,RBIEX,RBIEX Limited,193.25.170.0/23,London,UK,Europe,Ethernet,operations@rbiex.net,+44 871 277 6845,policy@rbiex.net,+44 871 277 6845,www.rbiex.net,,1,0,0
+57,Y,Edge-IX,,212.121.32.0/19,"London, Manchester",UK,Europe,Ethernet,,+44 161 200 1610,,+44 161 200 1610,http://www.edge-ix.net/,,1,0,1
+58,Y,FreeBIX,Free Belgian Internet Exchange,195.85.203.0/24,Belgium,BE,Europe,Ethernet,noc@freebix.net,+32 2 880 89 03,info@freebix.net,+32 2 880 89 03,http://www.freebix.net/,,1,1,1
+59,Y,BNIX,Belgian National Internet eXchange,194.53.172.0/25,Brussels,BE,Europe,Ethernet,tech@bnix.net,+32 2 790 33 33 ,info@bnix.net,+32 2 790 33 33 ,http://www.bnix.be,http://www.bnix.be/stats.php,1,1,1
+60,Y,SwissIX,Swiss Internet Exchange,194.242.34.14/25,Zurich,CH,Europe,Ethernet,noc@swissix.ch,,info@swissix.ch,,http://www.swissix.ch/,,1,1,1
+62,Y,CATNIX,Catalunya Neutral Internet Exchange,213.234.0.0/25,Barcelona,ES,Europe,Ethernet,catnix@suport.csuc.cat,+34 93 205 64 64,catnix@suport.csuc.cat,+34 93 205 64 64,http://www.catnix.net,http://www.catnix.net/en/statistics/,1,1,1
+63,Y,ESPANIX Lower LAN,Espana Internet Exchange Lower LAN,193.149.0.0/24,Madrid,ES,Europe,Ethernet,,,admision@espanix.net,+34 91 637 0853,http://www.espanix.net,http://mrtg.espanix.net/espanix/espanix.html,1,0,1
+64,Y,NL-IX,Neutral Internet Exchange,194.153.154.0/25,Amsterdam,NL,Europe,Ethernet,noc@nl-ix.net,+31 70 365 36 88,info@nl-ix.net,+31 70 365 36 88,http://www.nl-ix.net/,http://www.nl-ix.net/traffic.php,1,1,1
+65,Y,KD-X,KDWEB Exchange,198.32.131.0/24,San Jose,US,North America,Ethernet,dlr@bungi.com,,,,http://www.kd-web.net/,,1,1,0
+68,Y,FNIX6,French National Internet Exchange IPv6,195.140.149.129/25,Paris,FR,Europe,Ethernet,info@fnix6.net,,info@fnix6.net,,http://www.fnix6.net/,,0,0,1
+69,Y,Lyonix,"Lyonix, the Lyon IX",194.153.157.192/26,Lyon,FR,Europe,Ethernet,noc.peeringdb.com@lyonix.net,+33 4 27 46 00 55,policy.peeringdb.com@lyonix.net,+33 6 13 61 88 44,http://www.lyonix.net/,,1,1,1
+70,Y,Netnod Stockholm,Netnod Internet Exchange i Sverige AB,194.68.123.0/24 194.68.128.0/24,Stockholm,SE,Europe,Ethernet,noc@netnod.se,+46 8 641 45 80,info@netnod.se,+46 8 562 860 00,http://www.netnod.se,http://www.netnod.se/ix/statistics/,1,1,1
+71,Y,NIX CZ,Neutral Internet Exchange,194.50.100.0/24,Prague,CZ,Europe,Ethernet,technici@nix.cz,+420 246 083 470,technici@nix.cz,+420 246 083 460,http://www.nix.cz/,http://nix.cz/en/summary_graph,1,0,1
+72,Y,GigaPix,GIGAbit Portuguese Internet eXchange,,Lisbon,PT,Europe,Ethernet,operacao@fccn.pt,+351 21 844 0101,info@fccn.pt,+351 21 844 0100,http://www.fccn.pt/,http://www.fccn.pt/pt/servicos/conectividade-e-infraestrutura/gigapix/dados-em-tempo-real/,1,0,1
+73,Y,INXS by ecix,INXS by ecix,194.59.190.0/24,Munich,DE,Europe,Ethernet,support@ecix.net,+49 30 81495 450,support@ecix.net,+49 30 81495 450,www.ecix.net,,1,1,1
+74,Y,DE-CIX Hamburg,"DE-CIX, the Hamburg Internet Exchange",213.238.34.0/24,Hamburg,DE,Europe,Ethernet,support@de-cix.net,+49 40 2281 7021 - 9,info@de-cix.net,+49 40 2281 7021 - 9,http://www.de-cix.net/products-services/de-cix-hamburg/,http://www.work-ix.net/statistics.php,1,0,1
+76,Y,GN-IX,Groningen Internet Exchange,193.111.172.0/24,Groningen,NL,Europe,Ethernet,noc@gn-ix.net,050-3638400,information@gn-ix.net,0503638400,http://www.gn-ix.net/,,1,0,1
+77,Y,LIX,Luxemburg Internet Exchange,193.168.127.0/24,Luxemburg,LU,Europe,Ethernet,admin@lix.lu,,admin@lix.lu,,http://www.lix.lu,,1,0,1
+78,Y,DIX,Danish Internet Exchange,192.38.7.0/24,Copenhagen,DK,Europe,Ethernet,netdrift@deic.dk,,,,http://www.dix.dk/,http://www.dix.dk/,1,0,1
+79,Y,UK6X,BTexact Technologies IPv6,2001:07F8:0002::/48,Ipswich,UK,Europe,Multiple,,,,,www.uk6x.com,,0,0,1
+81,Y,SD-NAP,San Diego NAP,198.17.46.0/24,San Diego,US,North America,Ethernet,,,,,http://www.sdsc.edu/sdnap/,,1,1,1
+82,Y,PacificWave,Pacific Wave Exchange in Los Angeles and Seattle,207.231.241.0/24,West Coast,US,North America,Ethernet,,,,,http://www.pacificwave.net/,,1,1,1
+83,Y,NIX,Norwegian Internet Exchange,193.156.90.0/24,Oslo,NO,Europe,Ethernet,,,,,http://www.uio.no/nix/,http://mrtg.uio.no/mrtg/nix/,1,0,1
+84,Y,SIX.SK,Slovak Internet Exchange,192.108.148.0/24,Bratislava,SK,Europe,Ethernet,six@six.sk,"+421 2 57104181, +421 2 57104184",six@six.sk,"+421 2 57104181, +421 2 57104184",http://www.six.sk/,http://www.six.sk/stats,1,0,1
+85,Y,NDIX,Nederlands Duitse Internet Exchange,193.108.98.0/24,Enschede / Münster,NL,Europe,Ethernet,noc@ndix.net,+31-53-4362666,jeroen@ndix.net,+31-53-4366605,www.ndix.net,,1,1,1
+87,Y,BCIX,Berlin Commercial Internet Exchange,193.178.185.0/24,Berlin,DE,Europe,Ethernet,noc@bcix.de,,vorstand@bcix.de,+49 30 39 00 16 60,http://www.bcix.de/,http://www.bcix.de/bcix/statistik/,1,0,1
+88,Y,iAIX,iAdvantage Internet Exchange,210.184.127.0/24,Hong Kong,HK,Asia Pacific,Ethernet,iaix-support@iadvantage.net,,,,http://www.iadvantage.net,,1,0,1
+89,Y,MadIX,Madison Internet Exchange,144.92.233.224/28,Madison,US,North America,Multiple,jeffb@doit.wisc.edu,+1-608-262-8336,jeffb@doit.wisc.edu,608-262-8336,http://kb.wisc.edu/ns/page.php?id=6636,http://stats.net.wisc.edu/madix.html,1,1,1
+90,Y,MAD-IX,Madrid Internet Exchange,195.245.196.0/24,Madrid,ES,Europe,Ethernet,noc@mad-ix.net,(+34) 91 789 4897,,,http://www.mad-ix.net/,,1,1,1
+91,Y,ECIX-DUS,European Commercial Internet Exchange Duesseldorf,194.146.118.0/24,Duesseldorf,DE,Europe,Ethernet,support@ecix.net,+49 30 81495450,support@ecix.net,+49 30 81495450,http://www.ecix.net/,https://www.ecix.net/statistics/,1,1,1
+92,Y,DIX-IE,Distributed IX in EDO (former NSPIXP2),,Tokyo,JP,Asia Pacific,Ethernet,,,,,http://nspixp.wide.ad.jp/,http://nspixp.wide.ad.jp/2/,1,0,0
+93,Y,SOX,Singapore Open Exchange,,Singapore,SG,Asia Pacific,Ethernet,noc@sox.net.sg,(65) 6668 3225,enquiry@sox.net.sg,(65) 6516 6420,http://www.sox.net.sg/,,1,0,1
+94,Y,Equinix Sydney,Equinix Sydney Exchange,202.167.228.0/25 202.167.228.128/25,Sydney,AU,Australia,Ethernet,ap-noc@ap.equinix.com,+65-67238833,peering@ap.equinix.com,+612.8337.2000,https://ix.equinix.com,,1,0,1
+95,Y,JPNAP Tokyo,Internet Multifeed Company,,Tokyo,JP,Asia Pacific,Ethernet,tech-c@mfeed.ad.jp,+81-3-6262-0960,info@mfeed.co.jp,,http://www.jpnap.net/english/,http://www.jpnap.net/english/jpnap-tokyo-i/traffic.html,1,1,1
+96,Y,WIX,Warsaw Internet eXchange,195.85.195.0/24,Warsaw,PL,Europe,Ethernet,,,,,http://www.wix.net.pl/,http://www.wix.net.pl/vxb/w/index.asp?statystyki_x=statystyki,1,0,0
+97,Y,APE,Auckland Peering Exchange,,Auckland,NZ,Australia,Ethernet,,,,,http://ape.nzix.net/,,1,0,0
+98,Y,FICIX,Finnish Communication and Internet Exchange,,Helsinki,FI,Europe,Ethernet,contact@ficix.fi,+358 50 9944762,hallitus@ficix.fi,+358 50 9944762,http://www.ficix.fi/english/main.php,http://stats.ficix.fi/,1,1,0
+99,Y,UNION IXP,UNION IXP - The member owned colo in Central Scotland,195.242.64.0 - 195.242.65.255,Edinburgh,UK,Europe,Ethernet,fm@unixp.net,+441315513255,fm@unixp.net,+441315513255,http://www.uixp.net/,,1,0,0
+100,Y,MSK-IX,Moscow Internet Exchange,193.232.244.0/22,Moscow,RU,Europe,Multiple,msk-ix-noc@ripn.net,+7 (095) 192-7933,msk-ix-adm@ripn.net,+7(095)737-9296,http://www.msk-ix.ru/,http://www.msk-ix.ru/eng/traffic.html,1,1,0
+105,Y,PIPE Networks Sydney,Pipe Networks MLPA Sydney,218.100.2.0/24,"Sydney, NSW",AU,Australia,Ethernet,support@pipenetworks.com,+61 7 3233 9800,peering@pipenetworks.com,+61 7 3233 9800,http://www.pipenetworks.com,,1,0,0
+107,Y,SPB-IX,Saint-Petersburg Internet Exchange,194.85.177.0,"Saint-Petersburg, Russia",RU,Europe,Ethernet,spb-ix-noc@ripn.net,"+7 (095) 192-9179, +7 (095) 192-9029",spb-ix-adm@ripn.net,+7(095)737-9296,ripn.net,,1,0,0
+108,Y,NWIX Helena,"NorthWest Internet eXchange - Helena, MT",69.51.84.0/26,Helena,US,North America,Ethernet,peering@nwix.org,,info@nwix.org,,http://www.nwix.org,,1,0,0
+109,Y,NWIX Missoula,"NorthWest Internet eXchange - Missoula, MT",69.51.84.128/26,Missoula,US,North America,Ethernet,peering@nwix.org,,info@nwix.org,,http://www.nwix.org,,1,0,0
+110,Y,PIPE Networks Brisbane,PIPE Networks Brisbane,218.100.0.0/24,BRISBANE,AU,Australia,Multiple,support@pipenetworks.com,+61 7 3233 9800,support@pipenetworks.com,+61 7 3233 9800,http://www.pipenetworks.com,,1,0,1
+111,Y,PIPE Networks Melbourne,PIPE Networks Melbourne,218.100.13.0/24,MELBOURNE,AU,Australia,Multiple,support@pipenetworks.com,+61 7 3233 9800,support@pipenetworks.com,+61 7 3233 9800,http://www.pipenetworks.com,,1,0,0
+112,Y,PIPE Networks Adelaide,PIPE Networks Adelaide,,Adelaide,AU,Australia,Ethernet,,,,,,,1,0,0
+113,Y,PIPE Networks Canberra,PIPE Networks Canberra,218.100.19.0/24,CANBERRA,AU,Australia,Multiple,support@pipenetworks.com,+61 7 3233 9800,support@pipenetworks.com,+61 7 3233 9800,http://www.pipenetworks.com,,1,0,0
+114,Y,PIPE Networks Hobart,PIPE Networks Hobart,218.100.12.0/24,HOBART,AU,Australia,Multiple,support@pipenetworks.com,+61 7 3233 9800,support@pipenetworks.com,+61 7 3233 9800,http://www.pipenetworks.com,,1,0,0
+115,Y,TOP-IX,Consorzio Top-IX,194.116.96.0/19,Turin,IT,Europe,Ethernet,staff@topix.it,+39 011 2309444,staff@topix.it,+39 011 2309444,http://www.top-ix.org,http://www.top-ix.org/traffic-summary,1,1,1
+119,Y,NDB,NAP do Brasil,,Barueri â€“ SÃ£o Paulo,BR,South America,Ethernet,IXPsupport@one.verizon.com,+55 11 4573 7400,remco.donker@nl.verizon.com,,www.verizon.com,,1,0,1
+121,Y,NaMeX,Nautilus Mediterranean Exchange Point,193.201.28.0/23,Rome,IT,Europe,Ethernet,noc@namex.it,+39 06 44486380,noc@namex.it,+39 06 44486380,http://www.namex.it,http://www.namex.it/en/network/traffic,1,0,1
+123,Y,KleyReX,KleyReX,193.189.82.0,Frankfurt,DE,Europe,Ethernet,,,info@kleyrex.net,+49 177 2681530,http://www.kleyrex.net/,http://www.kleyrex.net/stats.html,1,0,1
+124,Y,CIIX (formerly LAAP),CENIC International Internet eXchange (CIIX) formerly known as the Los Angeles Access Point (LAAP),198.32.146.0,Los Angeles,US,North America,Ethernet,noc@cenic.org,+1 714 220-3494,hostmaster@ln.net,+1 213-740-1531,http://www.laap.net/,,1,1,1
+125,Y,Equinix Hong Kong,Equinix Hong Kong,,Hong Kong,HK,Asia Pacific,Ethernet,ap-noc@ap.equinix.com, +65-67238833,peering@ap.equinix.com,+852.2970.7788,https://ix.equinix.com,,1,0,1
+126,Y,BBIX Tokyo,BroadBand Internet eXchange Tokyo,218.100.6.0,Tokyo,JP,Asia Pacific,Ethernet,bbix-sales@bbix.net,+81-3-6889-9257,bbix-sales@bbix.net,+81-3-6889-9257,http://www.bbix.net/,,1,0,1
+127,Y,OIX,Oregon-IX,198.32.162.0,Oregon,US,North America,Ethernet,,,,,http://www.oregon-ix.net/,http://www.oregon-ix.net/stat-frme.html,1,0,0
+128,Y,SOLIX,Stockholm Open Local Internet Exchange,193.110.12.0/24 193.110.13.0/24 193.108.17.0/24,Stockholm,SE,Europe,Ethernet,kontakt@sol-ix.net,,kontakt@sol-ix.net,,http://www.solix.se/,http://www.solix.se/stats.php,1,1,1
+129,Y,JINX,Johannesburg Internet Exchange,198.32.142.0/24,Johannesburg,ZA,Africa,Ethernet,inxqueries@ispa.org.za,+27.10.500.1200,inxqueries@ispa.org.za,+27.10.500.1200,http://www.ispa.org.za/inx/,http://stats.jinx.net.za/,1,0,1
+130,Y,PHX-IX,"Phoenix Internet Exchange, LLC",198.32.185.0/24,Phoenix,US,North America,Ethernet,noc@phx-ix.net,+1-602-386-3040,noc@phx-ix.net,+1-602-386-3040,http://www.phx-ix.net,,1,0,0
+135,Y,N-IX,Nuernberger Internet Exchange,195.85.217.0/24,Nuernberg,DE,Europe,Ethernet,info@n-ix.net,+49 911 309990,info@n-ix.net,INOC-DBA: 21083*000,www.n-ix.net,,1,1,1
+137,Y,IX.PR,Internet Exchange of Puerto Rico,,San Juan,US,North America,Ethernet,mehmet@ix.pr,7875671903,mehmet@ix.pr,7875671903,http://www.ix.pr/,,1,1,1
+139,Y,XchangePoint London,XchangePoint Europe,,London,UK,Europe,Ethernet,,,,,http://www.xchangepoint.net/,http://traffic.xchangepoint.net/cgi-bin/publicstats,1,0,1
+140,Y,MCIX,Manchester Commercial Internet Exchange,,Manchester,UK,Europe,Ethernet,,,info@mcix.co.uk,+44 161 275 1100,http://www.mcix.co.uk,http://www.mcix.co.uk/stats.php,1,0,0
+141,Y,TampaIX,Tampa Internet Exchange,198.32.198.0/24,Tampa,US,North America,Multiple,support@tampaix.net,813-676-6666,info@tampaix.net,,tampaix.net,,1,0,0
+142,Y,CoreSite - Any2 California,CoreSite - Any2 California,206.223.143.0/24,Los Angeles and Silicon Valley,US,North America,Ethernet,osc@coresite.com,1-866-777-2673 #2,any2@coresite.com,1-866-777-2673 #2,http://www.coresite.com,,1,0,1
+143,Y,EuskoNIX,Basque Country Internet Exchange Point,,Lejona/País Vasco,ES,Europe,Ethernet,noc-i2bask@ehu.es,+34 943018705,,,www.euskonix.net,,1,0,0
+145,Y,JPNAP Osaka,Internet Multifeed JPNAP Osaka,,Osaka,JP,Asia Pacific,Ethernet,tech-c@mfeed.ad.jp,+81-3-6262-0960,,,http://www.mfeed.co.jp/english/,http://www.jpnap.net/english/jpnap-osaka/traffic.html,1,0,1
+146,Y,GIX Gothenburg,Gothenburg Internet Exchange,194.165.32.0/24,Gothenburg,SE,Europe,Ethernet,noc@gix.se,+46 31-7480700,info@gix.se,+46 31-7480700,www.gix.se,,1,0,0
+148,Y,EuroGIX,,,Strasbourg,FR,Europe,Multiple,,,,,http://www.eurogix.org/,,1,0,0
+149,Y,MIX Malta,Malta Internet Exchange,,Msida,MT,Europe,Multiple,,,,,http://www.mix.net.mt/,,1,0,0
+151,Y,BigApe,The Big Apple Peering Exchange,198.32.238.0/24,New York,US,North America,Ethernet,info@bigape.us,,info@bigape.us,,http://www.bigape.us,,1,0,1
+153,Y,IXNM,Internet Exchange New Mexico,208.50.192.0/24,New Mexico,US,North America,Multiple,noc@ixnm.net,+1 505 923 4040,peering@ixnm.net,+1 505 923 4040,www.ixnm.net,,1,1,1
+154,Y,BAYANTEL,Bayan Telecommunications Internet and Gaming Exchange,202.78.121.0/24,Quezon City,PH,Asia Pacific,Ethernet,stang@bayantel.com.ph,+632-4493506,stang@bayantel.com.ph,+632-4493506,www.bayantel.com.ph,,1,0,0
+155,Y,SFMIX,San Francisco Metropolitan Internet Exchange,,San Francisco,US,North America,Ethernet,tech-c@sfmix.org,,,,http://www.sfmix.org/,,1,1,1
+156,Y,PacketExchange,PacketExchange - eXpress,83.245.126.0/30,Europe / US,UK,Europe,Ethernet,support@packetexchange.net,+442073774130,sales@packetexchange.net,+442073774130,www.packetexchange.net,,1,0,1
+158,Y,Equinix Singapore,Equinix Singapore Exchange,,Singapore,SG,Asia Pacific,Ethernet,ap-noc@ap.equinix.com,+65-67238833,peering@ap.equinix.com,+65.6723.8888,https://ix.equinix.com,,1,0,1
+161,Y,MerieX,Meridian Gate Internet Exchange,195.60.84.128/25,London,UK,Europe,Ethernet,noc@meriex.net,n/a,noc@meriex.net,n/a,http://www.meriex.net,,1,0,0
+165,Y,NWAX,"Northwest Access Exchange, Inc.",198.32.195.0/24,"Portland, Oregon",US,North America,Ethernet,noc@nwax.net,,info@nwax.net,,www.nwax.net,,1,0,1
+166,Y,eXpress,PacketExchange - eXpress,83.245.126.0/23,UK,UK,Europe,Ethernet,support@packetexchange.net,+44 (0) 20 7001 6860,,,http://www.packetexchange.net/content/express.htm,,1,0,0
+167,Y,Equinix Tokyo,Equinix Tokyo,203.190.230.0/24,Tokyo,JP,Asia Pacific,Ethernet,ap-noc@ap.equinix.com,+65-67238833,peering@ap.equinix.com,+81.3.5796.0767,https://ix.equinix.com,,1,0,1
+168,Y,AMPATH,AMPATH - Florida International University/CIARA,198.32.252.0/24,Miami,US,North America,Multiple,ernesto@cs.fiu.edu,+1 786-282-6783,esj@cs.fiu.edu,+1 305-348-4021,http://www.ampath.net,,1,1,0
+170,Y,OCIX Duesseldorf,OpenCarrier eG Member IX Duesseldorf ,194.54.92.0/25,Duesseldorf,DE,Europe,Ethernet,noc@opencarrier.eu,+49-211-6355640-11,info@opencarrier.eu,+49-211-6355640-10,http://www.opencarrier.eu/,,1,0,1
+171,Y,PTT-SP,PTT Sao Paulo,,Sao Paulo/SP,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/sp,1,0,1
+172,Y,STHIX,Stockholm Internet eXchange,194.50.181.0/24,Stockholm,SE,Europe,Ethernet,rasmus@sthix.net,,rasmus@sthix.net,,http://www.sthix.net/,http://www.sthix.net/,1,0,1
+173,Y,PTT-RS,PTT Porto Alegre,,Porto Alegre/RS,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/rs,1,0,1
+174,Y,PTT-PR,PTT Curitiba,,Curitiba/PR,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/pr,1,0,1
+175,Y,PTT-SC,PTT Florianopolis,,Florianopolis/SC,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/sc,1,0,1
+176,Y,PTT-MG,PTT Belo Horizonte,,Belo Horizonte/MG,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/mg,1,0,1
+177,Y,PTT-RJ,PTT Rio de Janeiro,,Rio de Janeiro/RJ,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/rj,1,0,1
+178,Y,PTT-DF,PTT Brasilia,,Brasilia/DF,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/df,1,0,1
+180,Y,NGIX West,,,"Moffett Field, CA",US,North America,Ethernet,bcates@mail.arc.nasa.gov,,,,,,1,1,1
+181,Y,CABASE-BUE,CABASE NAP Buenos Aires,200.0.17.0/24,Buenos Aires,AR,South America,Ethernet,noc@cabase.org.ar,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+184,Y,UA-IX,Ukranian Internet Exchange,,Kiev,UA,Europe,Ethernet,noc@ix.net.ua,(380) 44 2782925,admin@ix.net.ua,(380) 44 2782925,http://www.ua-ix.net.ua/eng,http://ix.net.ua/57.0.0.1.0.0.phtml,1,0,1
+187,Y,TIX-LAN,Tallinn Internet eXchange,194.116.188.0/24,Tallinn,EE,Europe,Ethernet,arvo.laane@elion.ee,+372 6402561,arvo.laane@elion.ee,+372 6402561,http://tix.estpak.ee/,,1,0,1
+189,Y,HIX,Hawai`i Internet Exchange,,Honoloulu,US,North America,Multiple,,,kawachi@hawaii.edu,,http://www.hawaii-ix.org/,,1,0,0
+190,Y,TLLIX,Tallinn Internet Exchange,195.137.179.0/24,Tallinn,EE,Europe,Ethernet,info@tllix.net,+372 622 3370,info@tllix.net,+372 622 3370,http://www.tllix.net/,,1,0,1
+191,Y,PitX,Pittsburgh Internet Exchange,,Pittsburgh,US,North America,Ethernet,info@pitx.net,,info@pitx.net,,http://www.pitx.net/,http://www.pitx.net/netstat/,1,0,0
+192,Y,Netnod Gothenburg,Netnod Internet Exchange i Sverige AB,"194.68.130.0/24 (MTU1500), 195.69.116.0/24 (MTU4470)",Gothenburg,SE,Europe,Ethernet,noc@netnod.se,+46 8 641 45 80,info@netnod.se,+46 8 562 860 00,http://www.netnod.se,http://www.netnod.se/ix/statistics/,1,1,1
+193,Y,Netnod COMIX,Netnod Internet Exchange i Sverige AB,"195.69.117.0/24 (MTU1500), 195.69.118.0/24 (MTU4470)",Malmo / Copenhagen,SE,Europe,Ethernet,noc@netnod.se,+46 8 641 45 80,info@netnod.se,+46 8 562 860 00,http://www.netnod.se,http://www.netnod.se/ix/statistics/,1,1,1
+194,Y,Netnod Sundsvall,Netnod Internet Exchange i Sverige AB,"194.68.133.0/24 (MTU1500), 194.68.135.0/24 (MTU4470)",Sundsvall,SE,Europe,Ethernet,noc@netnod.se,+46 8 641 45 80,info@netnod.se,+46 8 562 860 00,http://www.netnod.se,http://www.netnod.se/ix/statistics/,1,1,1
+195,Y,PIX Vancouver,Peer1 Internet Exchange - Vancouver,206.223.127.0/25,Vancouver,CA,North America,Ethernet,support@peer1.com,1-866-484-2588,peering@peer1.com,1-866-484-2588,http://www.peer1.com,,1,0,1
+196,Y,PIX Montreal,Peer1 Internet Exchange - Montreal,206.223.139.0/26,Montreal,CA,North America,Ethernet,support@peer1.com,1-866-484-2588,peering@peer1.com,1-866-484-2588,http://www.peer1.com,,1,0,0
+197,Y,PIX Toronto,Peer1 Internet Exchange - Toronto,206.223.127.128/25,Toronto,CA,North America,Ethernet,support@peer1.com,1-866-484-2588,peering@peer1.com,1-866-484-2588,http://www.peer1.com,,1,0,0
+198,Y,NIXI Delhi,National Internet eXchange of India,198.32.202.0/24,Delhi,IN,Asia Pacific,Ethernet,info@nixi.in,+91-11-41674311-12,,,www.nixi.in,,1,0,0
+199,Y,YRIX,Yellowstone Regional Internet eXchange,192.168.100.0/24,"Billings, MT",US,North America,Ethernet,,,,,http://www.yrix.org/,,1,0,1
+204,Y,CoreSite - Any2 NorthEast,CoreSite - Any2 NorthEast,206.51.40.0 /24,"DC, Reston, Boston, New York",US,North America,Ethernet,osc@coresite.com,1-866-777-2673 #2,any2@coresite.com,1-866-777-2673 #2,http://www.coresite.com,,1,0,1
+205,Y,CoreSite - Any2 Miami,CoreSite - Any2 Miami,206.51.44.0 /24,Miami,US,North America,Ethernet,osc@coresite.com,1-866-777-2673 #2,any2@coresite.com,1-866-777-2673 #2,http://www.coresite.com,,1,0,1
+207,Y,PTCL (PIE),Pakistan Internet Exchange,202.125.128.0/19 le 24,Karachi,PK,Asia Pacific,Multiple,noc@ptcl.net.pk,92-21-2774258,noc@ptcl.net.pk,92-21-2760066,www.ptcl.com.pk,,1,0,0
+208,Y,ENLIX,Enlightened Internet Exchange,193.189.130.0/24,Manchester,UK,Europe,Ethernet,,,,,,,1,0,0
+209,Y,ECIX-BER,European Commercial Internet Exchange Berlin,194.9.117.0/24,Berlin,DE,Europe,Ethernet,support@ecix.net,+49 30 81495450,support@ecix.net,+49 30 81495450,http://www.ecix.net/,https://www.ecix.net/statistics/,1,0,1
+210,Y,IIX,Indonesia Internet Exchange,218.100.4.0,Jakarta,ID,Asia Pacific,Ethernet,admin@iix.net.id,+62-21-5296-0634,admin@iix.net.id,+62-21-5296-0634,www.iix.net.id,,1,1,0
+211,Y,JPNAP Tokyo 2,JPNAP Tokyo II Service,,Tokyo,JP,Asia Pacific,Ethernet,tech-c@mfeed.ad.jp, +81-3-6262-0960,,+81-3-3282-1040,http://www.mfeed.ad.jp,http://www.jpnap.net/english/jpnap-tokyo-ii/traffic.html,1,0,1
+212,Y,S-IX,Stuttgarter Internet eXchange,n/a,Stuttgart,DE,Europe,Ethernet,six-list@ispeg.de,+49 171 3101372,six-list@ispeg.de,+49 171 3101372,http://www.s-ix.info/,,1,0,1
+215,Y,BDIX,Bangladesh Internet Exchange,198.32.167.0/24,Dhaka,BD,Asia Pacific,Ethernet,,,,,http://www.bdix.net/,,1,0,0
+216,Y,ASIX6,Academia Sinica Internet Exchange 6,,Taipei,TW,Asia Pacific,Multiple,noc@ascc.net,+886-2-27886333,ethern@ascc.net,+886-2-27899953,http://www.ascc.sinica.edu.tw/,,0,1,1
+217,Y,TaipeiGigaPoP,Taipei GigaPoP Internet Exchange,,Taipei/Taiwan,TW,Asia Pacific,Multiple,noc@ascc.net,+886-2-27886333,noc@ascc.net,+886-2-27886333,http://www.ascc.sinica.edu.tw/,,1,0,1
+221,Y,OttIX,Ottawa Internet Exchange,198.32.235.0/24,Ottawa,CA,North America,Ethernet,,,,,http://www.ottix.net/,,1,1,1
+223,Y,NSK-IX,Novosibirsk Internet Exchange,193.232.87.0/24,Novosibirsk/Russia,RU,Europe,Ethernet,nsk-ix-noc@ripn.net,+7 499 196 9525,nsk-ix-adm@ripn.net,+7 495 7379296,http://www.ripn.net/ix/nsk/en/networks.html,http://www.ix.ru/eng/nsk/traffic.html,1,0,0
+224,Y,NIXI Mumbai,National Internet eXchange of India,,Mumbai,IN,Asia Pacific,Multiple,info@nixi.in,+91-11-41674311-12,,,http://www.nixi.in,,1,0,1
+225,Y,NIX-CAT,National Internet Exchange by CAT (NIX-CAT) ,,Bangkok,TH,Asia Pacific,Multiple,,,,,http://www.cat.net.th/home.html,,1,0,0
+226,Y,CoreSite - Any2 Chicago,CoreSite - Any2 Chicago,206.51.43.0/24,Chicago,US,North America,Ethernet,osc@coresite.com,1-866-777-2673 #2,any2@coresite.com,1-866-777-2673 #2,http://www.coresite.com,,1,0,1
+227,Y,PHOpenIX,Philippine Open Internet Exchange,198.32.172.0/24,Metro Manila,PH,Asia Pacific,Ethernet,,+6324269760,info@phopenix.net,+6324269760,http://www.phopenix.net/,,1,0,1
+228,Y,RIX,Reykjavik Internet Exchange,193.4.58.0/27,Reykjavik,IS,Europe,Ethernet,rix@rix.is,,rix@rix.is,,http://www.rix.is/,,1,1,1
+230,Y,POZIX,Poznan Internet Exchange,193.84.179.0/24,Poznan,PL,Europe,Ethernet,noc@pozix.pl,+48 61 858 22 55,info@pozix.pl,+48 61 858 22 55,http://www.pozix.pl/,,1,0,1
+231,Y,MalmIX Malmo / IXOR,Internet eXchange point of the Oresund Region,193.243.183.64/26,Malmö,SE,Europe,Ethernet,info@ixor.se,+46 (0) 708 - 993295,info@ixor.se,+46-(0)40-630 16 63,www.ixor.se,http://www.ixor.se/statistics/,1,0,1
+233,Y,StuffIX Paris,StuffIX,80.248.213.128/27,Paris,FR,Europe,Ethernet,noc@hivane.net,+33603698983,info@hivane.net,+33603698983,www.hivane.net,,1,0,1
+234,Y,NSPIXP3,Wide NSPIXP3,202.249.38.0/24,Osaka,JP,Asia Pacific,Ethernet,,,,,http://nspixp.wide.ad.jp/3/,,1,0,1
+235,Y,NIXI Chennai,National Internet eXchange of India,218.100.48.0/24,Chennai,IN,Asia Pacific,Ethernet,info@nixi.in,+91-11-41674311-12,,,http://www.nixi.in/,,1,0,0
+236,Y,KIXP,Kenya Internet Exchange Point,198.32.143.0/24,Nairobi,KE,Africa,Ethernet,,,,,,,1,0,0
+237,Y,CNC Beijing NAP,CNC Beijing NAP,202.97.10.0/24,Beijing,CN,Asia Pacific,Ethernet,,,,,,,1,0,0
+238,Y,Ottawa GigaPOP,Ottawa Federal GigaPOP,198.32.149.0/24,Ottawa,CA,North America,Ethernet,,,,,,,1,0,1
+239,Y,ChIX,United IX - Chicago,206.51.33.0/24,Chicago,US,North America,Ethernet,neteng@unitedix.net,+1 312-529-7842,peering@unitedix.net,,https://unitedix.net/location/chicago,https://unitedix.net/location/chicago/networks,1,1,1
+240,Y,MINAP Milan,Milan Neutral Access Point,92.60.70.0/24 / 2a01:658:ffff::/64,Milan,IT,Europe,Ethernet,noc@minap.it,+39 348 24 24 356,noc@minap.it,+39 348 24 24 356,http://www.minap.it/,,1,0,1
+241,Y,npIX,Nepal Internet Exchange,198.32.231.0/24,Kathmandu,NP,Asia Pacific,Ethernet,info@npix.net.np,+977-1-5012546,info@npix.net.np,+977-1-5012546,http://www.npix.net.np/index.html,http://www.npix.net.np/graphs,1,0,1
+246,Y,LGDACOM IX,Boranet LGDACOM IX,,Seoul,KR,Asia Pacific,Ethernet,afteryou@LGDACOM.net,,,,http://www.bora.net/eng/products/ix_ind.html,,1,0,0
+248,Y,DE-CIX Munich,"DE-CIX, the Munich Internet Exchange","80.81.202.0/24, 2001:7f8:44::/48",Munich,DE,Europe,Ethernet,support@de-cix.net,+49 89 3816 9123 4,info@de-cix.net,+49 89 3816 9123 1,http://www.de-cix.net/products-services/de-cix-munich/,http://www.alp-ix.net/statistics.php,1,0,1
+249,Y,KCIX Kansas City,Kansas City Internet eXchange,206.51.7.0/24,Kansas City,US,North America,Multiple,noc@kcix.net,+1-816-550-9030,peering@kcix.net,+1-816-550-9030,http://www.kcix.net/,,1,0,1
+250,Y,MyIX,Malaysia Internet Exchange,218.100.44.0/24,Kuala Lumpur,MY,Asia Pacific,Ethernet,peering@myix.my,,peering@myix.my,,http://www.myix.my,,1,0,1
+252,Y,NAP Colombia - CCIT,Camara Colombiana de Informatica y Telecomunicaciones,206.223.124/24,Bogota,CO,South America,Ethernet,gerencia@ccit.org.co,57 175623456,gerencia@ccit.org.co,57 1 7563456,www.nap.com.co,,1,0,0
+253,Y,NAP.EC-UIO,NAP.EC Quito,200.1.6.0/24,Quito/UIO,EC,South America,Ethernet,soporte@nap.ec,+593 2 225 2495,info@nap.ec,+593 2 225 2495,http://www.nap.ec,,1,0,1
+254,Y,CoreSite - Any2 Denver ,CoreSite - Any2 Denver / Formerly RMIX,198.32.216.0/24,Denver,US,North America,Multiple,osc@coresite.com,1-866-777-2673 #2,any2@coresite.com,1-866-777-2673 #2,http://www.coresite.com,,1,0,1
+255,Y,Equinix Paris,Equinix Internet Exchange Paris,195.42.144.0/24,Paris,FR,Europe,Ethernet,peering@eu.equinix.com,,peering@eu.equinix.com,,http://www.equinix-ix.fr/,,1,0,1
+256,Y,Telx Phoenix,"TIE:Phoenix, Telx Internet Exchange Phoenix",198.32.186.0/24 2001:478:186::/64,Phoenix,US,North America,Ethernet,tie@telx.com,1.888.835.9832,tie@telx.com,1.888.835.9832,http://tie.telx.com,http://tie.telx.com/usage.pl,1,0,1
+257,Y,Netnod Lulea,Netnod Internet Exchange i Sverige AB,194.68.131.64 - 194.68.131.127,Lulea,SE,Europe,Ethernet,noc@netnod.se,+46 8 641 45 80,info@netnod.se,+46 8 562 860 00,http://www.netnod.se,http://www.netnod.se/ix/statistics/,1,1,1
+258,Y,Norrnod,Norrnod Umea,212.32.128.0 - 212.32.128.127,Umea,SE,Europe,Ethernet,support@norrnod.se,+46 90 786 70 10,info@norrnod.se,+46 90 786 70 10,http://www.norrnod.se,,1,0,0
+260,Y,OCIX,Open Caribbean Internet eXchange,200.0.22.0/23,Philipsburg,SX,South America,Ethernet,noc@ocix.net,+1 721 5460460,info@ocix.net,+1 721 5460460,http://www.ocix.net,,1,0,1
+261,Y,Viettel,Viettel ISP/IXP,,Hanoi,VN,Asia Pacific,Ethernet,ipcore@viettel.com.vn,+84988057705,,,www.viettel.com.vn,,1,0,0
+262,Y,SISPA,Swaziland Peering Point,198.180.153.0/24,Swaziland,SZ,Africa,Ethernet,peering@posix.co.za,+27 12 807 0590,,,,,1,0,0
+264,Y,PLIX,Polish Internet Exchange,195.182.218/23,Warsaw,PL,Europe,Ethernet,noc@plix.pl,+48224273999,noc@plix.pl,+48224273999,http://www.plix.pl/,,1,1,1
+267,Y,DRF IX,DRFortress Exchange,206.197.210.0/24,Honolulu,US,North America,Ethernet,peering@drfortress.com,808-528-7528,peering@drfortress.com,808-528-7528,www.drfortress.com,,1,0,0
+269,Y,TransACT IX,TransACT IX,218.100.50.0/25,Canberra,AU,Australia,Ethernet,operations@transact.com.au,+61 2 6161 8383,,,http://www.transact.com.au,,1,0,0
+270,Y,INTERLAN,Interlan Internet Exchange,86.104.125.0/24,Bucharest,RO,Europe,Ethernet,tech@interlan.ro,+40317102428,cd@interlan.ro,+40317102428,http://www.interlan.ro,http://netview.interlan.ro,1,0,1
+273,Y,TIX,Tuscany Internet eXchange,193.42.140.0/24,Sesto Fiorentino - Florence,IT,Europe,Ethernet,staff@tix.it,,,,http://www.tix.it/,,1,0,0
+274,Y,CAIX,Cairo Internet eXchange,81.21.96.0/24,Cairo,EG,Middle East,Ethernet,caix.support@caix.net.eg,+202 3534 4000,caix.info@caix.net.eg,+202 3534 4000,http://www.caix.net.eg/,http://www.caix.net.eg/index.php/technical-info/traffic-statistics,1,0,1
+275,Y,BY-IX,Belarusian Internet Exchange,192.168.255.0/24,Minsk,BY,Europe,Ethernet,noc@mck.beltelecom.by,+375172170034,,,http://www.beltelecom.by/services/internet/piring/,,1,0,0
+281,Y,MEIX,GPX Cairo,196.223.7.0/24,Cairo,EG,Middle East,Ethernet,techsupport@gpxglobal.net,+0100410033,techsupport@gpxglobal.net,+0100410033,http://www.gpx.ie/,,1,0,0
+283,Y,UppRIX,Uppsala regional Internet exchange,"195.189.188.0/25, 195.189.189.0/25, 195.189.188.128/25, 2001:7f8:37:17::/64, 2001:7f8:37:18::/64 ",Uppsala,SE,Europe,Ethernet,kontakt@upprix.se,+46 18 678120,kontakt@upprix.se,+46 18 678120,www.upprix.se,,1,1,1
+287,Y,Crimea-IX,Crimea-IX,195.60.93.0/26,Simferopol,UA,Europe,Ethernet,,,,,http://crimea-ix.net/,,1,0,1
+288,Y,ACTIX,ACT Internet Exchange,218.100.59.0/24,"Canberra, ACT",AU,Australia,Ethernet,admin@actix.net.au,,admin@actix.net.au,,http://www.actix.net.au,,1,0,1
+291,Y,ECIX-HAM,European Commercial Internet Exchange Hamburg,193.42.155.0/24 // 2001:7f8:8:10::/64,Hamburg,DE,Europe,Ethernet,support@ecix.net,+49 30 81495450,support@ecix.net,+49 30 81495450,http://www.ecix.net/,https://www.ecix.net/statistics/,1,0,1
+293,Y,Od-IX,Odessa Traffic Exchange Network,194.107.117.0/24,Odessa,UA,Europe,Ethernet,noc@od-ix.net,(380) 48 7951392,noc@od-ix.net,(380) 48 7951392,http://od-ix.net/,,1,0,0
+294,Y,CBN Exchange Point,PT. Cyberindo Aditama - CBN,202.158.0.0/17,Jakarta,ID,Asia Pacific,Ethernet,peering@cbn.net,+622157994500,peering@cbn.net,+622157994500,http://www.cbn.net.id/,,1,1,1
+296,Y,NET-IX,Home Networks eXchange,82.148.16.0/24,Moscow/Russia,RU,Europe,Ethernet,noc@net-ix.net,+7 (495) 786-2424,adm@net-ix.net,+7 (495) 786-2424,http://www.net-ix.net/,,1,1,0
+297,Y,LU-CIX,,,Luxembourg,LU,Europe,Ethernet,info@lu-cix.lu,,,,http://www.lu-cix.lu/,,1,1,1
+298,Y,NIX2,Norwegian Internet Exchange (location 2),193.156.120.0/24,Oslo,NO,Europe,Ethernet,,,,,http://www.nix.no/,,1,0,1
+299,Y,NIX.SK,Neutral Internet eXchange Slovakia,194.30.187.0/24,Bratislava,SK,Europe,Ethernet,nmc@nix.sk, +421 221 203 470,nmc@nix.sk,+421 221 203 460,http://www.nix.sk,,1,0,1
+301,Y,RoNIX,Romanian Internet Exchange,217.156.113.0/24,Bucharest,RO,Europe,Ethernet,,,,,http://www.ronix.ro/,,1,0,1
+303,Y,CIX,Croatian Internet Exchange,193.192.15.64/26,Zagreb,HR,Europe,Ethernet,cix-admin@cix.hr,+385 1 616 5520,,,http://www.cix.hr/,http://www.cix.hr/cix_promet.html?&L=1,1,0,1
+305,Y,SofiaConn,Sofia Connect Ltd.,212.5.48.0./22,Sofia,BG,Europe,Ethernet,tec_peering@sofia-connect.net,+35970014678,peering@sofia-connect.net,+35970014678,http://sofia-connect.net/,,1,0,0
+307,Y,St-IX,S3 - IXP,,Stargard Szczecinski,PL,Europe,Ethernet,kl@man.stargard.pl,+48696756351,noc@man.stargard.pl,+48914716171,http://man.stargard.pl/,,1,0,1
+311,Y,VSIX,VSIX Nap del Nord Est,,Padova,IT,Europe,Ethernet,staff@vsix.it,,,,http://www.vsix.it/,,1,0,1
+313,Y,R_ix,Rotterdam Internet Exchange,,Rotterdam,NL,Europe,Ethernet,noc@r-ix.nl,+31 10 310 10 00,info@r-ix.nl,+31 10 310 10 00,http://www.r-ix.nl/,,1,0,1
+314,Y,PTT-LDA,PTT Londrina,200.219.144.0/24,Londrina/PR,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/lda,1,0,1
+316,Y,ExWest,Exchange West,2001:7f8:4d::/48,Galway,IE,Europe,Ethernet,noc@exwest.net,+353 87 9 366 566,noc@exwest.net,+353 87 9 366 566,http://www.exwest.net/,,1,0,1
+317,Y,GIX,Globe Internet Exchange,,Makati City,PH,Asia Pacific,Multiple,gtpmc-ipservices@globe.com.ph,+63.2.7977638,"vbatienza@globe.com.ph, peering@globenet.com.ph",+63.917.5887652,http://www.globe.com.ph/business,,1,0,0
+319,Y,SIX SI,Slovenian Internet Exchange,"193.2.141.0/24, 2001:7f8:46::/48",Ljubljana,SI,Europe,Ethernet,noc@arnes.si,+38614798800,info@arnes.si,,http://www.arnes.si/en/infrastructure/six-internet-exchange.html,http://www.arnes.si/en/infrastructure/six-internet-exchange/traffic-statistics.html,1,0,1
+320,Y,TomIX,Tomis Internet eXchange,89.40.130.0/24,Constanta,RO,Europe,Ethernet,noc@tomix.ro,+40728.874780,,,http://www.tomix.ro/,,1,0,1
+321,Y,LINX Extreme LAN,London Internet Exchange Ltd.,,London,UK,Europe,Ethernet,support@linx.net,+44 20 7645 3500,info@linx.net,+44 20 7645 3501,http://www.linx.net/,https://stats.linx.net/,1,1,1
+322,Y,Telx Dallas,"TIE:Dallas, Telx Internet Exchange Dallas ",,Dallas,US,North America,Ethernet,tie@telx.com,1.888.835.9832,tie@telx.com,1.888.835.9832,http://tie.telx.com,http://tie.telx.com/usage.pl,1,0,1
+324,Y,CyberPlus,PT. Cyberplus Media Pratama,114.141.48.0/21,DKI Jakarta,ID,Asia Pacific,Ethernet,admin@cyberplus.net.id,+622182418811,abuse@cyberplus.net.id,+622182418811,http://www.cyberplus.net.id/,,1,0,0
+325,Y,Telx New York,"TIE:New York, Telx Internet Exchange New York",,New York,US,North America,Ethernet,tie@telx.com,1.888.835.9832,tie@telx.com,1.888.835.9832,http://tie.telx.com/,http://tie.telx.com/usage.pl,1,0,1
+326,Y,B-IX,Balkan Internet Exchange,,Sofia,BG,Europe,Ethernet,support@b-ix.net,+359-882-700-947,sales@b-ix.net,+359-889-359-369,http://www.b-ix.net/,http://www.b-ix.net/technical/statistics/,1,1,1
+327,Y,DTEL-IX,Digital Telecom Internet Exchange,,Kiev,UA,Europe,Ethernet,noc@dtel-ix.net,+380 44 201-14-14,noc@dtel-ix.net,+380 44 201-14-14,http://www.dtel-ix.net/,,1,1,1
+328,Y,TREX,Tampere Region Exchange,195.140.192.0/24,Tampere,FI,Europe,Ethernet,staff-2015@trex.fi,+358 45 670 2048,info-2015@trex.fi,+358 44 975 6548,http://www.trex.fi/,https://stats-trex.basen.com/,1,1,1
+329,Y,CNIX,Cork Neutral Internet Exchange,91.213.73.0/24,Cork,IE,Europe,Ethernet,engineering@cnix.ie,,info@cnix.ie,,http://www.cnix.ie/,,1,0,0
+331,Y,BIX.BG,Bulgarian Internet eXchange,193.169.198.0/23,Sofia,BG,Europe,Ethernet,noc@bix.bg,+359 8848 15669,noc@bix.bg,+359 8848 15669,http://www.bix.bg/,http://www.bix.bg/en/technical_information/traffic_statistics.html,1,1,1
+332,Y,CoreSite - Any2 New York,CoreSite - Any2 New York,,New York,US,North America,Ethernet,osc@coresite.com,1-866-777-2673 #2,any2@coresite.com,1-866-777-2673 #2,http://www.coresite.com,,1,0,1
+333,Y,CoreSite - Any2 Boston,CoreSite - Any2 Boston,,Boston,US,North America,Ethernet,osc@coresite.com,1-866-777-2673 #2,any2@coresite.com,1-866-777-2673 #2,http://www.coresite.com,,1,0,1
+334,Y,KAZ-IX,KAZAKHSTAN TRAFFIC EXCHANGE,195.2.230.0/23,Almaty/Kazakhstan,KZ,Asia Pacific,Ethernet,akushner@online.kz,+77272447700,akushner@online.kz,+77272447700,http://www.kaz-ix.kz/,,1,0,0
+336,Y,TOUIX,Toulouse Internet eXchange,91.213.236.0/24,Toulouse,FR,Europe,Ethernet,contact@touix.net,+33(0)663560673,contact@touix.net,+33(0)663560673,http://www.touix.net/,,1,0,0
+338,Y,CoreSite - Any2 Northern California,CoreSite - Any2 Northern California,206.51.41.0/24,"San Jose, CA",US,North America,Ethernet,osc@coresite.com,1-866-777-2673 #2,any2@coresite.com,1-866-777-2673 #2,http://www.coresite.com,,1,0,1
+340,Y,ULN-IX,Ulyanovsk Internet eXchange,83.217.20.0/26,Ulyanovsk,RU,Europe,Ethernet,adm@uln-ix.ru,+79510954436,adm@uln-ix.ru,+79510954436,http://www.uln-ix.ru/,,1,0,0
+342,Y,TRDIX,Trondheim Internet eXchange,93.156.93.0/24,Trondheim,NO,Europe,Ethernet,,,,,www.nix.no,,1,0,0
+343,Y,ISTIX / IST-IX,Istanbul Internet Exchange,,Istanbul,TR,Europe,Ethernet,IXPsupport@one.verizon.com,305-328-8000,remco.donker@nl.verizon.com,,www.verizon.com,,1,0,1
+344,Y,CINX,Cape Town Internet Exchange,198.32.214.0/24,Cape Town,ZA,Africa,Ethernet,inxqueries@ispa.org.za,+27.10.500.1200,inxqueries@ispa.org.za,+27.10.500.1200,http://www.ispa.org.za/inx/,http://stats.cinx.net.za/,1,0,1
+347,Y,GR-IX,GReek Internet eXchange,83.212.8.0/23,Athens,GR,Europe,Ethernet,noc@gr-ix.gr,+30 210 7474090,noc@gr-ix.gr,+30 210 7474090,http://www.gr-ix.gr/,http://www.gr-ix.gr/services/statistics/,1,1,1
+348,Y,WIX-NZ,Wellington Internet Exchange,,Wellington,NZ,Australia,Ethernet,,,,,http://wix.nzix.net/,,1,0,1
+349,Y,CHIX-NZ,Christchurch Internet Exchange,,Christchurch,NZ,Australia,Ethernet,,,,,http://chix.nzix.net/,,1,0,1
+350,Y,EKT-IX,Ekaterinburg IX,194.85.107.0/24,Ekaterinburg,RU,Europe,Ethernet,staff@duty.ru,+7-495-737-4232,ekt-adm@ix.ru,+7-495-737-9296,http://www.ix.ru/eng/ekt/,http://www.ix.ru/eng/ekt/traffic.html,1,0,1
+355,Y,QIX,Quebec Internet Exchange,192.77.55.0,Montreal,CA,North America,Ethernet,noc@qix.ca,514-845-7181,info@qix.ca,514-845-7181,http://www.qix.ca/,http://www.qix.ca/en/qix/network,1,0,1
+356,Y,GRAPESC,"GRAPE SC,a.s.",AS 47232: 78.111.112.0/20 93.91.144.0/20; AS 47232 49767i 109.72.0.0/20,Prague,CZ,Europe,ATM,ruzicka@grapesc.cz,00420724612176,ruzicka@grapesc.cz,00420724612176,http://www.grapesc.cz/,,1,0,0
+357,Y,SOAX,Southern Oregon Access Exchange,,Medford,US,North America,Ethernet,,,,,http://soax.org/,,1,0,0
+358,Y,DATAIX,"Peering, LTD",188.227.0.0/22,"St.Petersburg,Moscow,Ekaterinburg,Novosibirs,Omsk,Khabarovsk/RU.",RU,Europe,Multiple,noc@dataix.ru,+7-812-612-11-04,noc@dataix.ru,+7-812-612-11-04,http://www.dataix.ru,http://graphs.dataix.ru/total.png,1,0,1
+359,Y,France-IX,FranceIX,,Paris,FR,Europe,Ethernet,noc@franceix.net,,info@franceix.net,,https://www.franceix.net,https://tools.franceix.net/stats/aggregated/,1,0,1
+360,Y,VANTX,BCNET Vancouver Transit Exchange,,Vancouver,CA,North America,Ethernet,noc@bc.net,+1 604-822-1348 option 3 ,,,http://www.bc.net,,1,0,0
+361,Y,TIX - Tanzania,Tanzania Internet eXchange,196.223.5.0/25,Dar es Salaam,TZ,Africa,Ethernet,info@tix.or.tz,,info@tix.or.tz,,http://tix.or.tz/,,1,0,1
+363,Y,SUPRnet,Southern Utah Peering Regional Network,209.33.201.176/28,Saint George,US,North America,Ethernet,peering@suprnet.net,+1 435-773-6073,peering@suprnet.net,+1 435-773-6073,http://suprnet.net/,,1,0,1
+364,Y,SMILE-LV,Santa Monica Internet Local Exchange,195.246.227.0/24,Riga,LV,Europe,Ethernet,bgp@smile.smn.lv,,ugis.berzins@smn.lv,,,,1,1,1
+366,Y,AMS-IX Caribbean,Amsterdam Internet Exchange Caribbean,200.0.20.0/23,Curacao,CW,South America,Ethernet,noc@ams-ix.cw,+31 20 5141717,info@ams-ix.cw,+31 20 305 8999,http://www.ams-ix.cw/,https://cw.ams-ix.net/technical--2/statistics,1,0,1
+368,Y,GigaPix OPorto,GIGAbit Portuguese Internet eXchange OPorto,193.136.251.96/27,Oporto,PT,Europe,Ethernet,operacao@fccn.pt,+351 218440101,info@fccn.pt,+351 218440100,www.fccn.pt,,1,1,1
+370,Y,SainteTiX,,,Rhone Alpes,FR,Europe,Multiple,,+33 (0) 811 95 19 69 ,,,http://www.saintetix.net,,1,0,1
+371,Y,SIX NO,Stavanger Internet Exchange,,Stavanger/Rogaland,NO,Europe,Ethernet,,,,,http://www.nix.no,,1,0,0
+372,Y,Balcan-IX,Balcan-IX,,Bucharest,RO,Europe,Ethernet,tech-support@balcan-ix.net,+40213050160,sales@balcan-ix.net,+40214005087,www.balcan-ix.net,,1,0,1
+373,Y,Equinix Toronto,Equinix Internet Exchange Toronto,,Toronto,CA,North America,Ethernet,servicesupport@equinix.com,+1-866-811-8720,servicesupport@equinix.com,,https://ix.equinix.com,,1,1,1
+375,Y,OpenIXP / NiCE,National Inter Connection Exchange (NiCE),218.100.27.0/24 218.100.36.0/24,Indonesia,ID,Asia Pacific,Ethernet,admin@openixp.net,+62-21-5269988,admin@openixp.net,+62-21-5269988,www.openixp.net,,1,0,1
+377,Y,AAIX,Alpes Adria Internet eXchange,193.37.144.0/24,Klagenfurt,AT,Europe,Ethernet,noc@as39912.net,+43 664 88512576,noc@as39912.net,+43 664 88512576,www.aaix.at,,1,0,0
+378,Y,VLV-IX,Vladivostok IX,193.232.136.0/24,Vladivostok,RU,Europe,Ethernet,vlv-noc@ix.ru,+7 (495) 737-0685,vlv-adm@ix.ru,+7 (495) 737-9296,http://www.ix.ru/vlv/,,1,0,0
+379,Y,SMR-IX,Samara IX,193.232.135.0/24,Samara,RU,Europe,Ethernet,smr-noc@ix.ru,+7 (495) 737-0685,smr-adm@ix.ru,+7 (495) 737-9296,www.smr-ix.ru,,1,0,1
+380,Y,RND-IX,Rostov-on-Don IX,193.232.140.0/24,Rostov-on-Don,RU,Europe,Ethernet,rnd-noc@ix.ru,+7 (495) 737-0685,rnd-adm@ix.ru,+7 (495) 737-9296,www.rnd-ix.ru,,1,0,1
+381,Y,REUNIX,REUNIX,193.57.253.128/27,"Saint-Denis, La Reunion",RE,Africa,Ethernet,support@reunix.fr,+33 1 53 94 20 40,,,http://www.renater.fr/spip.php?rubrique280,,1,0,0
+383,Y,LIX-LV,Latvian Internet Exchange,62.63.140.0/22,Riga,LV,Europe,Ethernet,bgp@lix.lv,"+371-67049940, +371-67082222, +371-67000177",lix@lix.lv,"+371-67049940, +371-67082222, +371-67000177",http://www.lix.lv,http://www.lix.lv/site/load,1,0,1
+387,Y,INEX LAN2,Internet Neutral Exchange Association Ltd.,194.88.240.0/25,Dublin,IE,Europe,Ethernet,operations@inex.ie,+353 1 5313337,manager@inex.ie,+353 1 4332052,http://www.inex.ie/,https://www.inex.ie/technical/stats,1,1,1
+392,Y,MD-IX,Internet eXchange Moldova,193.17.78.0/24,Chisinau,MD,Europe,Ethernet,,,office@moldtelecom.md,+373 (22) 570-111,http://www.moldtelecom.md,,1,0,1
+393,Y,IIX_,Israel Internet eXchange,192.114.62.0/23,Petach Tikva,IL,Middle East,Multiple,iix-registrar@isoc.org.il,,iix-registrar@isoc.org.il,,http://www.iix.net.il,,1,0,1
+395,Y,ASSOCIO,mpls ASSOCIO,,"Tokyo, Nation wide",JP,Asia Pacific,Multiple,,,contact@associo.jp,,http://www.associo.jp/,,1,0,1
+397,Y,UTOPIA,Utah Telecommunication Open Infrastructure Agency,204.228.158.0/27,Utah,US,North America,Ethernet,rtimmerman@utopianet.org,+1 801-613-3843,rtimmerman@utopianet.org,+1 801-613-3843,http://www.utopianet.org,,0,0,0
+398,Y,KZN-IX,Kazan Internet Exchange,194.190.119.0/24,Kazan/Tatarstan,RU,Europe,Ethernet,kzn-noc@ix.ru,+7 (495) 737-0685,kzn-adm@ix.ru,+7 (495) 737-9296,http://www.ix.ru/kzn/,http://www.ix.ru/eng/kzn/traffic.html,1,0,1
+400,Y,LIPTAM,Lietuvos Interneto paslaugÅ³ tiekÄ—jÅ³ apsikeitimo mazgu,193.219.13.64/26,Vilnius,LT,Europe,Ethernet,pagalba@is.lt,,,,http://is.lt/,,1,0,0
+405,Y,NAP Chile,Intercambio de TrÃ¡fico Nacional,216.72.175.0,Santiago del Chile,CL,South America,Ethernet,admin@nap.cl,,info@nap.cl,,http://www.nap.cl/,,1,0,0
+410,Y,FR-IX,FR-IX,91.216.67.0/24,Paris,FR,Europe,Ethernet,contact@en-ix.fr  ,,contact@en-ix.fr  ,,http://www.fr-ix.fr,,1,1,1
+415,Y,PTT-CAS,PTT Campinas,,Campinas/SP,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/cas,1,0,0
+416,Y,Powernetix,Powernetix,202.85.224.0/20,Hong Kong,HK,Asia Pacific,Ethernet,noc@powernetix.com,+852 2189 7222,noc@powernetix.com,+852 2189 7222,www.powernetix.com,,1,0,0
+418,Y,PTT-AME,PTT Americana,,Americana/SP,BR,South America,Ethernet,noc@ptt.br,+55 11 5509 3530,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/ame,1,0,1
+421,Y,Angola-IXP / ANG-IX,Angola Internet Exchange point,196.223.1.0/24,Luanda,AO,Africa,Ethernet,admin@angola-ixp.ao,,,,http://www.angola-ixp.ao/,,1,0,0
+422,Y,UIXP,Uganda Internet Exchange Point,194.153.153.0/24,Kampala,UG,Africa,Ethernet,mike.barnardq@gmail.com,,kyle@stormzero.com,,http://www.uixp.co.ug/,,1,0,0
+424,Y,SOX d.o.o. Serbia,Serbian Open eXchange,193.105.163.0 - 193.105.163.255,Belgrade/Serbia,RS,Europe,Ethernet,krajko@sox.rs,+381646118246,iConsult@perke.net,+381646118246,www.sox.rs,,1,0,1
+427,Y,SARATOV-IX,Saratov Internet Exchange,,Saratov,RU,Europe,Ethernet,SARATOV-IX-adm@altura.ru,+8 (845-2) 265-359,SARATOV-IX-adm@altura.ru,+8 (845-2) 265-359,http://saratov-ix.ru/,,1,0,0
+428,Y,NASA-AIX,NASA Ames Internet eXchange,2001:478:6663:100::/64 	2001:478:6663:200::/64 	198.32.136.0/24 	198.32.153.0/24 	198.9.201.0/24 	198.9.202.0/24,"Mountain View, CA",US,North America,Ethernet,noc@nren.nasa.gov,,bobby.g.cates@nasa.gov,,http://www.nasa.gov/centers/ames,,1,1,1
+429,Y,SGIX,Singapore Internet Exchange,218.100.70.0/24,Singapore,SG,Asia Pacific,Ethernet,notice@sgix.sg,,info@sgix.sg,,www.sgix.sg,,1,1,1
+430,Y,GraX,Grazer Internet eXchange,193.105.214.0/24,Graz,AT,Europe,Ethernet,peering@grax.at,+43 3127 / 20500,peering@grax.at,+43 3127 / 20500,http://www.grax.at/,http://www.grax.at/traffic/,1,1,1
+433,Y,PHILAIX,Philadelphia Internet Exchange,,Philadelphia,US,North America,Multiple,peering@philaix.org,+1 215-563-1831,peering@philaix.org,+1 215-563-1831,www.philaix.org,,1,0,1
+435,Y,IX Leeds,Leeds Internet Exchange,,Leeds / Western Yorkshire,UK,Europe,Ethernet,support@ixleeds.net,,info@ixleeds.net,,http://ixleeds.net,http://ixleeds.net/graphs.php,1,0,1
+446,Y,MICE,Midwest Internet Cooperative Exchange,,"Minneapolis, MN",US,North America,Ethernet,peering@micemn.net,,,,www.micemn.net,,1,0,1
+452,Y,BIXc,Biznet Internet Exchange,218.100.41.0/24,Jakarta,ID,Asia Pacific,Ethernet,noc@biznetnetworks.com,+62-21-57998888,peering@biznetnetworks.com,+62-21-57998888,http://www.biznetnetworks.com/En/?menu=Bix,,1,0,0
+453,Y,FIXO,Free Internet Exchange Oslo,91.198.176.0/24,Oslo,NO,Europe,Ethernet,fixo@fixo.no,,,,www.fixo.no,,1,0,1
+457,Y,COPHIX,Copenhagen Internet eXchange,194.117.52.128/25 & 2001:7f8:5c::/48,Copenhagen,DK,Europe,Ethernet,noc@cophix.net,,noc@cophix.net,,www.cophix.net,,1,0,1
+463,Y,GU-IX,Guam Internet Exchange,,Guam,GU,Asia Pacific,Ethernet,technical@gu-ix.net,,policy@gu-ix.net,,http://www.gu-ix.net,http://www.gu-ix.net/stats/,1,0,1
+469,Y,MCIX - Matrix Networks,Matrix Cable Internet eXchange,119.110.116.0/23,Jakarta,ID,Asia Pacific,Ethernet,peering@nap.net.id,+62 21 2528888,peering@nap.net.id,+62 21 2528888,www.nap.net.id,,1,0,1
+474,Y,KIX,Krajowa Izba Komunikacji Ethernetowej,91.212.9.0/24,Warszawa,PL,Europe,Ethernet,noc@k-ix.pl,+48.22.2920992,noc@k-ix.pl,+48.22.2920992,www.tanie-lacze.pl,,1,1,0
+475,Y,Lviv-IX,Lviv Internet Exchange Point,91.192.104.0/23,Lviv,UA,Europe,Ethernet,noc@lviv-ix.net.ua,+380 98 252 34 78,admin@lviv-ix.net.ua,,http://www.lviv-ix.net.ua/,,1,0,0
+476,Y,AZIX,Arizona Internet Exchange,206.223.120.0/24,Phoenix,US,North America,Ethernet,info@arizonaix.net,+1 866-544-4830,info@arizonaix.net,,http://www.arizonaix.net/,http://www.arizonaix.net/stats.pl,1,0,1
+477,Y,CBIX,Commercial Brno Internet Exchange,195.60.89.0/25,Brno,CZ,Europe,Ethernet,zidek@master.cz,+420777919700,zidek@master.cz,+420777919700,http://www.cbix.cz/en/,,1,0,1
+481,Y,Thinx,Thinx Poland,212.91.0.0/22,Warsaw,PL,Europe,Ethernet,noc@atman.pl,+48.22.5156160,peering@atman.pl,+48 22 51 56 160,http://www.atman.pl,https://portal.atman.pl/stats/net.jsf,1,0,1
+482,Y,TPIX,TPIX,195.149.232.0/21,Warsaw,PL,Europe,Ethernet,tpix@orange.com,+48 22 527 08 44,tpix@orange.com,+48 22 527 08 44,http://www.tpix.pl,http://www.tpix.pl/statystyki.html,1,0,0
+487,Y,CyIX,Cyprus Internet Exchange,,Nicosia / Cyprus,CY,Europe,Ethernet,m.palis@cytanet.com.cy,,charalambous.christos@ucy.ac.cy,,http://www.cytanet.com.cy/network/cyix/,,1,0,0
+488,Y,IXPN Lagos,Internet Exchange Point of Nigeria,196.216.148.0/24,Lagos,NG,Africa,Ethernet,support@nixp.net,+234 (1) 7625117,applyhelp@nixp.net,+234 (1) 7625117,www.nixp.net,,1,0,0
+491,Y,EPIX.Katowice,Stowarzyszenie na Rzecz Rozwoju Spoleczenstwa Informacyjnego e-Poludnie,"195.191.170.0/23,2001:7f8:5b::/48",Katowice/Silesia,PL,Europe,Ethernet,noc@epix.net.pl,+48609911040,peering@epix.net.pl,+48609911040,http://www.epix.net.pl/,http://stats.epix.net.pl/,1,1,1
+492,Y,FICIX3,Finnish Communication and Internet Exchange,,Oulu,FI,Europe,Ethernet,contact@ficix.fi,+358 50 9944762,hallitus@ficix.fi,+358 50 9944762,http://www.ficix.fi/english/main.php,,1,1,1
+496,Y,BNIIX,Buffalo Niagara International Internet Exchange,,Buffalo,US,North America,Ethernet,support@bniix.net,"+1-855-8585-IXP , +1-716-986-9860",peering@bniix.net,peering@bniix.net,www.bniix.net,,1,0,1
+498,Y,GIX Gdansk,Gdansk Internet eXchange,188.116.45.0/24,Gdansk,PL,Europe,Ethernet,gix@gix.gda.pl,,gix@gix.gda.pl,,http://www.gix.gda.pl,,1,0,0
+499,Y,MKE-IX,The Milwaukee IX,,Milwaukee,US,North America,Ethernet,discuss@lists.mkeix.net,,discuss@lists.mkeix.net,,http://www.mkeix.net,http://www.mkeix.net/stats,1,1,1
+506,Y,GTIIX,Greater Toronto International Internet Exchange,,Toronto,CA,North America,Ethernet,support@gtiix.net,+1-855-8585-IXP / +1-716-986-9860,peering@gtiix.net,,http://www.iixnetworx.net/peer/our-ixps/gtiix/,,1,0,1
+507,Y,LINX Route-Server RS1,rs1.linx.net,,London,UK,Europe,Ethernet,support@linx.net,+44 207 645 3535,,,www.linx.net,,1,0,1
+508,Y,LINX Route-Server RS2,rs2.linx.net,,London,UK,Europe,Ethernet,support@linx.net,+44 207 645 3535,,01733 207700,www.linx.net,,1,0,1
+509,Y,LINX Route-Server RS3,rs3.linx.net,,London,UK,Europe,Ethernet,support@linx.net,+44 207 645 3535,,+44 1733 207 700,www.linx.net,,1,0,1
+510,Y,LINX Route-Server RS4,rs4.linx.net,,London,UK,Europe,Ethernet,support@linx.net,+44 207 645 3535,,+44 1733 207 700,www.linx.net,,1,1,1
+512,Y,PIRIX,Pirix Internet Exchange,193.28.6.0/24,St.Petersburg,RU,Europe,Ethernet,noc@comfortel.pro,+7 812 6700010,team@pirix.ru,+7 812 6700000,http://www.pirix.ru,http://pirix.ru/statistics/,1,0,1
+513,Y,IX Australia VIC,Victorian Internet Exchange (VIC-IX),218.100.78.0/24,Melbourne/Victoria,AU,Australia,Ethernet,noc@ix.asn.au,+61893223022,peering@ix.asn.au,+61893223022,www.waia.asn.au,,1,0,1
+514,Y,COIX,Central Oregon Internet eXchange,206.197.131.0/24,Bend Oregon,US,North America,Ethernet,noc@centraloregonix.org,,policy@centraloregonix.org,,http://www.centraloregonix.org,,1,0,0
+524,Y,CePIX.pl,Central Polish Internet eXchange,,Mogilno,PL,Europe,Ethernet,wawer@wawer.info,+48 502 688 999,wawer@wawer.info,+48 502 688 999,http://cepix.pl/,,1,1,0
+526,Y,LIXP,Lesotho Internet Exchange,196.223.24.0/24,Maseru,LS,Africa,Ethernet,support@neology.co.za,+27-10-500-5900,peering@neology.co.za,+27-10-500-5900,http://www.lca.org.ls/,,1,0,1
+528,Y,MOZIX,Mozambique Internet Exchange,192.168.10.0,Maputo,MZ,Africa,Ethernet,antonio@uem.mz,+258823003920,antonio@uem.mz,+258823003920,http://www.mozix.org.mz,http://www.mozix.org.mz/mrtg,1,0,0
+529,Y,KRS-IX,Krasnoyarsk Internet Exchange,217.117.187.0/24,Krasnoyarsk,RU,Europe,Ethernet,krs-ix-noc@webra.ru,+7 (391) 290-40-90,krs-ix-adm@webra.ru,+7 (391) 290-40-90,http://www.krs-ix.ru,,1,1,0
+536,Y,Content-IX,GlobalConnect Content-IX,193.105.116.0/24,Copenhagen,DK,Europe,Ethernet,"Jan.Olsson@globalconnect.dk,kim.lohse@globalconnect.dk","+45 2550 7239,+45 2550 7210",lars.lastein@globalconnect.dk,+45 2550 7255,http://content-ix.dk/,,1,0,0
+538,Y,RTIX,Tallinn Governmental Internet Exchange,213.184.52.0/24  2001:7f8:50::/48,Tallinn,EE,Europe,Ethernet,toomas@aso.ee,+372 6630222,,,http://www.rtix.ee/rtix/,,1,0,1
+542,Y,Litix,Naujas Lietuviško interneto apsikeitimo taškas,81.16.231.0/25,Vilnius,LT,Europe,Ethernet,info@litix.lt,+370 5 2782078,,,www.litix.lt,,1,0,1
+543,Y,Rheintal IX,Rheintal IX Internet Exchange,91.232.229.0/24,LI / CH / AT,LI,Europe,Ethernet,noc@rheintal-ix.net,,info@rheintal-ix.net,,http://www.rheintal-ix.net,http://www.rheintal-ix.net/traffic/,1,0,1
+556,Y,PTT-BA,PTT Salvador,200.219.144/22,Salvador/BA,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/ba,1,0,1
+558,Y,PTT-CXJ,PTT Caxias do Sul,,Caxias do Sul/RS,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/cxj,1,0,1
+559,Y,SIX.SK KoÅ¡ice,Slovak Internet Exchange KoÅ¡ice,192.108.145.0/24,KoÅ¡ice,SK,Europe,Ethernet,six-ke@six.sk,"+421 55 6025156, +421 55 6025000",six-ke@six.sk,"+421 55 6025156, +421 55 6025000",http://www.six.sk,http://www.six.sk/statske,1,0,1
+563,Y,JXIX,Jacksonville Internet Exchange,206.123.7.0/24,Jacksonville,US,North America,Ethernet,noc@jxix.org,,noc@jxix.org,,http://jxix.org,,1,1,0
+564,Y,JPIX OSAKA,Japan Internet Exchange Osaka,,Osaka,JP,Asia Pacific,Ethernet,,,,,http://www.jpix.ad.jp/,,1,0,0
+565,Y,Boston Internet Exchange,Markley Boston Internet Exchange,206.108.236.0/24,Boston/Massachusetts,US,North America,Ethernet,patrick@markleygroup.com,+1 617-451-6464,patrick@markleygroup.com,+1 617-451-6464,http://www.bostonix.net/,,1,0,1
+566,Y,PNIX,Palmerston North Internet Exchange,218.100.21.0/24,Palmerston North,NZ,Australia,Ethernet,peering@citylink.co.nz,+64 4 917 0200,peering@citylink.co.nz,+64 4 917 0200,http://pnix.nzix.net/,,1,0,0
+572,Y,MIX,Mongolian Internet Exchange,200.0.18.0/24,Ulaanbaatar,MN,Asia Pacific,Ethernet,,,,,http://www.infocon.mn/info/node/95,,1,0,0
+573,Y,HIX Haiti,Haiti Internet Exchange,,Port-au-Prince,HT,South America,Ethernet,,,,,,,1,0,0
+575,Y,PTT-GYN,PTT Goiania,200.192.111.0/24,Goiania/GO,BR,South America,Ethernet,noc@ptt.br,+55 11 5509 3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/gyn,1,0,1
+576,Y,IX Australia QLD,Queensland Internet Exchange (QLD-IX),103.2.116.0/24,Brisbane/Queensland,AU,Australia,Ethernet,noc@ix.asn.au,+61893223022,peering@ix.asn.au,+61893223022,http://www.ix.asn.au,,1,0,1
+577,Y,AMS-IX Hong Kong,Amsterdam Internet Exchange Hong Kong,103.247.138.0/24 / 2001:0df0:0295::/48,Hong Kong,HK,Asia Pacific,Ethernet,noc@ams-ix.hk,+31 20 5141717,peering@ams-ix.hk,+31 20 3058999,www.ams-ix.hk,http://www.ams-ix.hk/total-traffic-statistics,1,0,1
+580,Y,STW-IX,Stavropol Internet Exchange,194.85.177.0/24,Stavropol,RU,Europe,Ethernet,stw-noc@ix.ru,+7 (495) 737-0685,stw-adm@ix.ru,+7 (495) 737-9296,http://www.ix.ru/stw,,1,1,1
+582,Y,BIX NO,Bergen Internet Exchange,193.156.125.0/24 2001:7F8:12:4::/64,Bergen,NO,Europe,Ethernet,,,,,http://www.nix.no/,,1,0,1
+583,Y,IXManchester,IXManchester powered by LINX,195.66.244.0/24,Manchester,UK,Europe,Ethernet,support@linx.net,+44 20 76453500,info@linx.net,+44 20 7645 3501,http://www.linx.net,,1,0,1
+587,Y,UAE-IX,UAE Internet Exchange,94.207.240.0/20,"Dubai, UAE",AE,Middle East,Ethernet,support@uae-ix.net,+49 69 1730 902 91,sales@uae-ix.net,+49 69 1730 902 92,www.uae-ix.net,,1,0,1
+590,Y,FR+Lyonix,Lyonix + FR-IX,89.234.128.0/24,FR,FR,Europe,Ethernet,contact@fr-ix.fr,+33.950315474,,,http://mon.nap69.fr-ix.fr,,1,0,1
+592,Y,NAPAfrica IX Johannesburg,NAPAfrica IX Johannesburg,196.46.25.155/25,Johannesburg,ZA,Africa,Ethernet,andrew@teraco.co.za,+27860837226,michele@teraco.co.za,michele@teraco.co.za,www.teraco.co.za,http://www.napafrica.net/napafrica-traffic/,1,1,1
+593,Y,Equinix Miami,Equinix Internet Exchange Miami,,Miami,US,North America,Ethernet,support@equinix.com,+1.866.378.4649,support@equinix.com,+1.866.378.4649,https://ix.equinix.com,,1,0,1
+597,Y,NAPAfrica IX Cape Town,NAPAfrica IX Cape Town,41.206.193.251,Cape Town,ZA,Africa,Ethernet,andrew@teraco.co.za,+27860837226,michele@teraco.co.za,+27860837226,www.teraco.co.za,http://www.napafrica.net/napafrica-traffic/,1,1,1
+598,Y,NIXI Hyderabad,National Internet eXchange of India ,,Hyderabad,IN,Asia Pacific,Ethernet,info@nixi.in,+91-11-41674311-12,,,http://www.nixi.in,,1,0,0
+602,Y,Echigo-IX,Echigo Internet Exchange,58.84.254.0/24,Niigata,JP,Asia Pacific,Ethernet,operation@echigo-ix.jp,+81-25-244-0144,operation@echigo-ix.jp,+81-25-244-0144,http://www.echigo-ix.jp/,,1,0,1
+603,Y,PTT-CPV,PTT Campina Grande,200.192.109.0/24,Campina Grande/PB,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/cpv,1,0,1
+606,Y,C2IX,Cyber 2 Internet Exchange,218.100.72.3,Jakarta,ID,Asia Pacific,Multiple,peering@cbn.net,+62-21-29964900,thomas.dragono@cbn.co.id,+62-21-29964900,http://www.cyber2dc.com,,1,1,1
+607,Y,MIX NDC,Mongolian Internet Exchange & Mongolian National Data Center,,Ulaanbaatar,MN,Asia Pacific,Ethernet,amarsaikhan.a@univision.mn,97688113284,batsaikhan@ndc.gov.mn,97688058903,http://www.ndc.gov.mn/,,1,0,1
+610,Y,DINX,Durban Internet Exchange,196.223.30.0/24,Durban,ZA,Africa,Ethernet,inxqueries@ispa.org.za,+27.10.500.1200,inxqueries@ispa.org.za,+27.10.500.1200,http://www.ispa.org.za/,,1,0,1
+615,Y,LuIXP,Lusaka Internet Exchange Point,196.223.2.0,Lusaka,ZM,Africa,Ethernet,tech@ispa.org.zm,,tech@ispa.org.zm,,www.ispa.org.zm,,1,0,0
+618,Y,PIX,Palestine Internet Exchange Point,,Ramallah,PS,Middle East,Ethernet,pixop@isoc.ps,,smansour@bci.ps,,http://isoc.ps/topics/category/projects/pix,,1,0,0
+624,Y,TP-IX,Twin Ports Internet Exchange,206.223.125.0/24,Duluth,US,North America,Ethernet,peering@tp-ix.net,,peering@tp-ix.net,,tp-ix.net,,1,1,1
+626,Y,IIX JI,IIX Jawa Timur,,Surabaya,ID,Asia Pacific,Ethernet,admin@ji.iix.net.id,,,,http://www2.jatim.apjii.or.id/,,1,0,1
+627,Y,SNAP,Southeast Network Access Point,,Atlanta,US,North America,Ethernet,info@southeastnap.com,,info@southeastnap.com,,http://www.southeastnap.com/,http://www.southeastnap.com/about_us/statistics/,1,0,1
+628,Y,RDC-IX Kinshasa,Kinix,196.223.28.0/24,Kinshasa,CD,Africa,Ethernet,charles.kikunda@afrinet.cd,+243 81 700 51 64,charles.kikunda@afrinet.cd,+243 81 700 51 64,http://www.ispa-drc.cd/kinix.htm,,1,0,0
+631,Y,PacificIX,Pacific IX,218.100.80.0/22,Sydney,AU,Australia,Ethernet,noc@vocus.com.au,,,,http://www.vocus.com.au/pacificix/,,1,0,1
+633,Y,Sea-IX,South Russia IX,91.240.225.1/24,Krasnodar,RU,Europe,Ethernet,noc@sea-ix.ru,+7 861 204-0035,adm@sea-ix.ru,+7 861 204-0035,http://sea-ix.ru/,,1,0,0
+635,Y,OMSK-IX,Omsk Internet Exchange,94.137.63.0/25,Omsk,RU,Europe,Ethernet,noc@omsk-ix.ru,+7 (3812) 660007,info@omsk-ix.ru,+7 (3812) 660022,http://omsk-ix.ru/,,1,0,0
+638,Y,PTT-SJC,PTT Sao Jose dos Campos,,Sao Jose dos Campos/SP,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/sjc,1,0,1
+639,Y,YYCIX,YYCIX Calgary Internet Exchange,,Calgary,CA,North America,Ethernet,noc@yycix.ca,,peering@yycix.ca,,http://yycix.ca,http://yycix.ca/graphs.html,1,0,1
+640,Y,GCIIX,Greater Chicago International Internet Exchange,206.123.30.0/24,Chicago,US,North America,Ethernet,noc@gciix.net,+1 855-8585-IXP,peering@gciix.net,+1 855-858-5497,www.gciix.net,,1,0,1
+655,Y,GigaNET,GigaNET,91.245.221.0/24 2001:7f8:6c::/116,Kiev,UA,Europe,Ethernet,noc@giganet.ua,+380 44 201-31-36,info@giganet.ua,+380 44 201-31-30,http://giganet.ua/,http://giganet.ua/stats/,1,0,1
+662,Y,Phoenix IX,Phoenix IX,208.157.218.0/24 2607:f8b8:fff1:6566/64,Phoenix,US,North America,Ethernet,peering@phoenix-ix.net,+1 602 688-6414,peering@phoenix-ix.net,+1 602 688-6414,www.phoenix-ix.net,http://phoenix-ix.net/traffic.html,1,0,1
+670,Y,VUIX,Vanuatu Internet Exchange,,Port Vila,VU,Asia Pacific,Ethernet,jtambeana@vanuatu.gov.vu,+678-24543,jtambeana@vanuatu.gov.vu,+678-24543,,,1,0,0
+671,Y,PHLIX,Philadelphia Internet Exchange,,Philadelphia,US,North America,Ethernet,peering@phlix.net,+1 215-PHLIX-44,peering@phlix.net,+1 215-PHLIX-44,http://phlix.net,http://phlix.net/traffic,1,0,1
+672,Y,CyrusOne IX Dallas,CyrusOne Internet Exchange,Pending,Dallas,US,North America,Ethernet,peering@cyrusone.com,786-493-4764 (Bill Williams Cell),snowhorn@cyrusone.com,305-205-8327 (Josh Snowhorn Cell),www.cyrusone.com,,1,0,1
+673,Y,CyrusOne IX Houston,CyrusOne Internet Exchange,Pending 2,Houston,US,North America,Ethernet,peering@cyrusone.com,786-493-4764 (Bill Williams Cell),snowhorn@cyrusone.com,305-205-8327 (Josh Snowhorn Cell),www.cyrusone.com,,1,0,1
+674,Y,CyrusOne IX Austin,CyrusOne Internet Exchange,Pending 3,Austin,US,North America,Ethernet,peering@cyrusone.com,786-493-4764 (Bill Williams Cell),snowhorn@cyrusone.com,305-205-8327 (Josh Snowhorn Cell),www.cyrusone.com,,1,0,1
+675,Y,CyrusOne IX San Antonio,CyrusOne Internet Exchange,Pending 4,San Antonio,US,North America,Ethernet,peering@cyrusone.com,786-493-4764 (Bill Williams Cell),snowhorn@cyrusone.com,305-205-8327 (Josh Snowhorn Cell),www.cyrusone.com,,1,0,1
+676,Y,ECIX-FRA,European Commercial Internet Exchange Frankfurt,62.69.146.0/23,Frankfurt,DE,Europe,Ethernet,support@ecix.net,+49 30 81495450,support@ecix.net,+49 30 81495450,http://www.ecix.net,https://www.ecix.net/statistics/,1,0,1
+683,Y,YAR-IX,Yaroslavl Internet Exchange,,Yaroslavl,RU,Europe,Ethernet,noc@zavolga.net,+7 4852 333-402,noc@zavolga.net,+7 4852 333-402,http://yar-ix.net,http://yar-ix.net/network/stat/,1,0,1
+691,Y,IX Australia SA,South Australian Internet Exchange (SA-IX),218.100.54.0/25,Adelaide/SA,AU,Australia,Ethernet,noc@ix.asn.au,+61893223022,peering@ix.asn.au,+61893223022,http://www.ix.asn.au,,1,0,1
+694,Y,GIXA,Ghana Internet Exchange Association,196.201.2.0/24,Accra,GH,Africa,Ethernet,technical@gixa.org.gh,+233.302.258800 ext 7031,info@gixa.org.gh,+233.302.258800 ext 7031,www.gixa.org.gh,http://www.gixa.org.gh/trafficgraph.html,1,1,0
+698,Y,Maxnod,,91.194.99.0/24,Saint Trivier sur Moignans,FR,Europe,Ethernet,peering@maxnod.net,peering@maxnod.net,peering@maxnod.net,+33 427462020,www.maxnod.com,,1,0,1
+699,Y,NetIX,NetIX Communications Ltd.,193.218.0.0/24,Sofia,BG,Europe,Ethernet,peering@netix.net,+359 2 975 16 16,dbelev@netix.net,+359 2 975 16 16,www.netix.net,http://212.73.140.125/summary/,1,0,1
+703,Y,MBIX,Manitoba Internet Echange,"206.72.208.0/24, 2001:504:26::/48","Winnipeg, Manitoba",CA,North America,Ethernet,network@mbix.ca,+1 204-990-2120,peering@mbix.ca,+1 204-291-3391,www.mbix.ca,http://www.mbix.ca/statistics/,1,0,1
+705,Y,PTT-PE,PTT Recife,200.219.147.0/24,Recife/PE,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/pe,1,0,1
+706,Y,PTT-VIX,PTT Vitoria,187.16.194.0/24,Vitoria/ES,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/vix,1,0,1
+707,Y,PTT-MAO,PTT Manaus,187.16.198.0/24 ,Manaus/AM,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/mao,1,0,1
+708,Y,PTT-NAT,PTT Natal,187.16.196.0/24 ,Natal/RN,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/nat,1,0,1
+709,Y,PTT-SJP,PTT Sao Jose do Rio Preto,187.16.199.0/24,Sao Jose do Rio Preto/SP,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,http://ptt.br/trafego/agregado/sjp,1,0,1
+710,Y,PTT-CE,PTT Fortaleza,IPv4 200.219.146.0/24	IPV6 2001:12f8:0:9::/64,Fortaleza/CE,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509-3550,http://ptt.br,http://ptt.br/trafego/agregado/ce,1,0,1
+711,Y,PTT-BEL,PTT Belem,IPv4 187.16.195.0/24	IPV6 2001:12f8:0:18::/64,Belem/PA,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509-3550,http://ptt.br,http://ptt.br/trafego/agregado/bel,1,0,1
+713,Y,Peering.cz,Peering.cz eXchange,91.213.211.0/24,Prague,CZ,Europe,Ethernet,support@peering.cz,+420 232 008 048,support@peering.cz,+420 232 008 048,http://www.peering.cz,http://www.peering.cz/traffic,1,0,1
+716,Y,IX Australia NSW,New South Wales Internet Exchange (NSW-IX),218.100.52.0/24,Sydney/NSW,AU,Australia,Ethernet,noc@ix.asn.au,+61893223022,peering@ix.asn.au,+61893223022,http://www.ix.asn.au,,1,0,1
+727,Y,MIX-BT,Malawi Internet Exchange,,Blantyre,MW,Africa,Ethernet,mispa-chair@mix.mw,+2651874979,mispa-chair@mix.mw,+265874979,http://www.mispa.org.mw/,,1,0,0
+745,Y,IXScotland,IXScotland powered by LINX,195.66.246.0/24,Scotland,UK,Europe,Ethernet,support@linx.net,+44 20 76453500,info@linx.net,+44 20 7645 3501,http://www.linx.net,,1,0,1
+760,Y,CyrusOne IX Phoenix,CyrusOne Internet Exchange,,Phoenix,US,North America,Ethernet,peering@cyrusone.com,1-786-493-4764 (Bill Williams Cell),snowhorn@cyrusone.com,1-305-205-8327 (Josh Snowhorn Cell),www.cyrusone.com,,1,0,1
+762,Y,DO-IX,Dortmund Internet eXchange,,Dortmund,DE,Europe,Ethernet,noc@rrbone.net,,,,https://www.do-ix.net,,1,1,1
+766,Y,DN-IX,Donetsk Internet eXchange,193.34.203.0/25,Donetsk,UA,Europe,Ethernet,ala@dn.ua,+380 340 5700,ala@dn.ua,+380 97 54 00 504,ix.dn.ua,,1,0,1
+776,Y,WPGIX,Winnipeg Internet Exchange,206.126.109.0/24 / 2001:504:2c::/116,Winnipeg,CA,North America,Ethernet,noc@wpgix.net,+12048804909,,+12048804909,http://wpgix.net/,http://wpgix.net/ix-daily.png,1,0,1
+777,Y,LINX NoVA,LINX Northern Virginia,,Northern Virginia,US,North America,Ethernet,support@linx.net,+44 20 76453535,mikeh@linx.net,+44 20 76453500,https://www.linx.net/service/publicpeering/nova,,1,1,1
+778,Y,CIX KR,CIX - Cracow Internet Exchange,93.159.151.11/24,Krakow,PL,Europe,Ethernet,noc@cix.krakow.pl,+48 12 3121303,info@cix.krakow.pl,+48 501 544 545,http://www.ix.krakow.pl/,,1,0,0
+779,Y,MegaIX Melbourne,Megaport MegaIX Melbourne,,Melbourne/Victoria,AU,Australia,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5999,http://www.megaport.com,,0,0,1
+780,Y,MegaIX Sydney,Megaport MegaIX Sydney,,Sydney,AU,Australia,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5999,http://www.megaport.com,,1,0,1
+781,Y,MegaIX Brisbane,Megaport MegaIX Brisbane,,Brisbane,AU,Australia,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5999,http://www.megaport.com,,1,0,1
+786,Y,BBIX Osaka,BroadBand Internet eXchange Osaka,IPv4 218.100.7.0/24  IPv6 2001:0DE8:00C:0002::/64,Osaka,JP,Asia Pacific,Ethernet,bbix-sales@bbix.net,+81-3-6889-9257,bbix-sales@bbix.net,+81-3-6889-9257,http://www.bbix.net/,,1,0,1
+787,Y,BBIX Fukuoka,BroadBand Internet eXchange Fukuoka,IPv4 218.100.8.32/27  IPv6 2001:0DE8:00C:0004::/64,Fukuoka,JP,Asia Pacific,Ethernet,bbix-sales@bbix.net,+81-3-6889-9257,bbix-sales@bbix.net,+81-3-6889-9257,http://www.bbix.net/,,0,0,0
+788,Y,BBIX Nagoya,BroadBand Internet eXchange Nagoya,IPv4 218.100.8.64/27  IPv6 2001:0DE8:00C:0005::/64,Nagoya,JP,Asia Pacific,Ethernet,bbix-sales@bbix.net,+81-3-6889-9257,bbix-sales@bbix.net,+81-3-6889-9257,http://www.bbix.net/,,1,0,1
+790,Y,PTT-LAJ,PTT Lajeado,187.16.202.0/24 ,Lajeado/RS,BR,South America,Ethernet,noc@ptt.br,+55 11 5509 3530,info@ptt.br,+55 11 5509 3550,http://ptt.br/,,1,0,1
+791,Y,BFIX,BigHorn Fiber Internet Exchange,208.38.206.0/24,WY/MT/CO,US,North America,Ethernet,noc@bighornfiber.com,307-682-1884,noc@bighornfiber.com,307-682-1884,http://www.bighornfiber.com/,,1,0,1
+796,Y,BREM-IX,BREM-IX,31.209.94.0/27,Bremen,DE,Europe,Ethernet,info@brem-ix.net,+494219888871,info@brem-ix.net,+494219888871,http://www.brem-ix.net/,http://www.brem-ix.net/traffic,1,0,1
+800,Y,VEGAS TELECOM,Vegas Telecom InformÃ¡tica LTDA,177.155.160.0/20,"Passos, Minas Gerais",BR,South America,ATM,fernando@vegastelecom.com.br,fernando@vegastelecom.com.br,fernando@vegastelecom.com.br,+553592130440,http://www.vegastelecom.com.br,,1,0,0
+804,Y,DE-CIX New York,"DE-CIX, the New York / New Jersey  Internet Exchange",,New York / New Jersey,US,North America,Ethernet,support@de-cix.net,+1-212-796-6914,sales@de-cix.net,+1-212-796-6914,https://nyc.de-cix.net,http://nyc.de-cix.net/about/statistics/,1,0,1
+805,Y,Engeplus,Engeplus Telecom LTDA,189.28.176.0/20 189.124.112.0/20 177.54.48.0/20 179.127.80/20,Criciuma,BR,South America,Ethernet,servidores@engeplus.com.br,+554834314700,servidores@engeplus.com.br,+554834314700,www.engeplus.com.br,,1,0,0
+806,Y,AMS-IX NY,AMS-IX New York,,New York,US,North America,Ethernet,noc@us.ams-ix.net,+1 212 461 4815,info@us.ams-ix.net,+1 212 461 4768,nynj.ams-ix.net,https://nynj.ams-ix.net/technical--5/statistics,1,0,1
+809,Y,OmahaIX,Omaha Internet Exchange,,Omaha,US,North America,Ethernet,omahaix@mankatonetworks.net,+1-507-327-5341,omahaix@mankatonetworks.net,+1-507-327-5341,http://www.omahaix.com,,1,0,1
+810,Y,CIVIX,Cote d'Ivoire Internet Exchange Point,196.223.4.0/24,Abidjan,CI,Africa,Ethernet,armand.koffi@artci.ci,+22520344254,civix@artci.ci,+22520344254,www.civix.ci,,1,0,0
+815,Y,NNOV-IX,Nizhny Novgorod  Internet Exchange,91.230.65.0/24,Nizhny Novgorod,RU,Europe,Ethernet,info@ix-nn.ru,+7(831) 413-80-68,info@ix-nn.ru,+7(831) 413-80-68,http://ix-nnov.ru/,,1,1,0
+816,Y,Univox,Univox Minas Gerais TelecomunicaÃ§Ãµes Ltda,189.36.144.0/20,SÃ£o SebastiÃ£o do ParaÃ­so - MG,BR,South America,Multiple,samuel@univox.com.br,+55 35-91053651,suporte@univox.com.br,+55 35-35392500,http://www.univox.com.br,,1,0,1
+817,Y,MinasNet,MINAS NET LTDA-ME,,Lagarto-SE,BR,South America,Ethernet,junior@portalminasnet.com,+55 79 99031467,junior@portalminasnet.com,+55 79 99031467,http://www.minasnet-telecom.com.br/,,1,0,0
+818,Y,PTT-MGF,PTT MaringÃ¡,,MaringÃ¡/PR,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br/,,1,0,1
+819,Y,PTT-SCA,PTT Paulista Central - SÃ£o Carlos,,SÃ£o Carlos/SP,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br/,,1,0,1
+822,Y,Sibir-IX,Krasnoyarsk Internet Exchange,91.230.210.1/23,Krasnoyarsk,RU,Europe,Ethernet,noc@sibir-ix.ru,+7 391 22-33-733,ceo@optizone.ru,+7 953-588-66-11,http://www.sibir-ix.ru/provider,,1,1,1
+823,Y,TPIX-TW,Taipei Internet Exchange ,203.163.222.0/23,Taipei/Taiwan,TW,Asia Pacific,Multiple,t21@chief.com.tw,+886226576688,service@chief.com.tw,+886226576688,www.chief.com.tw,,1,0,1
+828,Y,RZ-IX,Rzeszowski Punkt Wymiany Ruchu,,Rzeszow,PL,Europe,Ethernet,noc@rz-ix.pl,,noc@rz-ix.pl,,,,1,0,0
+829,Y,SLIX,Salt Lake Internet Exchange,204.228.153.0/24,Utah,US,North America,Ethernet,info@slix.net,801-809-5827,info@slix.net,801-809-5827,http://slix.net,,1,0,1
+831,Y,DEDICANET,DEDICA BRASIL INTERNET LTDA,191.6.224/21,LUZ/MINAS GERAIS,BR,South America,Ethernet,suporte@dedicanet.com.br,+55 37 3421 4015,policy@dedicanet.com.br,+55 37 3421 8820,http://www.dedicanet.com.br,,1,1,1
+832,Y,Mumbai CH,Mumbai Convergence Hub,,Mumbai,IN,Asia Pacific,Multiple,hello@mumbaich.com,+917506277576,peering@mumbaich.com,+917506277576,www.mumbaich.com,,1,1,1
+833,Y,TPAIX,Tampa Internet Exchange,,Tampa,US,North America,Ethernet,ixsupport@wowinc.com,813-301-2620,james.ashton@wowinc.com,813-301-2620,www.tpaix.net,,1,0,1
+842,Y,IXP-ML,IXP-MEGALINK,,LA PAZ,BO,South America,Ethernet,jcgalvez@megalink.com,+591-715-22149,noc@megalink.com,+591-715-22149,http://www.megalink.com/ixp,,1,1,0
+845,Y,"VTC - DIGICOM Co., Ltd",AS38726 Digital Communications Company,,Ha Noi,VN,Asia Pacific,Ethernet,network_noc@vienthongso.com,+84-4-6364700/+84-4-6364701,,,http://www.vienthongso.com/,,1,0,1
+846,Y,iVOCS,Carlos Mauricio Schuck,177.184.160.0/20,Cachoeira do Sul,BR,South America,Ethernet,mauricio.schuck@ivocs.psi.br,+55 51 37244461,bgp@ivocs.com.br,bgp peer,http://www.ivocs.psi.br,,1,0,1
+847,Y,"Smart Axiata Co,.Ltd",Smart Axiata,27.109.112.0/22; 117.20.112.0/21; 203.118.242.0/24; 202.93.153.0/24; 202.129.236.0/24,Phnom Penh,KH,Asia Pacific,Ethernet,heang.sokdet@smart.com.kh,+85510201618,,,www.smart.com.kh,,1,0,0
+848,Y,SunNetwork,Sun Network (Hong Kong) Limited,202.40.160.123,Hong Kong,HK,Asia Pacific,Ethernet,idc@snw.hk,36110789,idc@snw.hk,36110789,sun.net.hk,,1,0,1
+850,Y,ADN-IX,The ArdÃ¨che and DrÃ´me Internet eXchange Point,,Valence,FR,Europe,Ethernet,sysadm@rezopole.net,+33 (0)4 27 46 00 50,,,http://www.adn-ix.net/,,1,1,1
+851,Y,ArmIX,Armenian Internet Exchange ,91.218.4.0/22,Yerevan,AM,Europe,Ethernet,albert@web.am,albert@web.am,albert@web.am,albert@web.am,http://www.armix.am,,1,0,0
+853,Y,Nexus,Nexus srl,195.69.147.111,Bologna,IT,Europe,Ethernet,andrea.fini@nexusway.eu,+390510546609,,,Http://www.nexusway.eu,,1,0,0
+854,Y,HTN-IX,"HT Networks Co., Ltd.",,Phnom Penh,KH,Asia Pacific,Ethernet,sotheamom.htn@gmail.com,+85598499928,boralong.htn@gmail.com,+85577757617,http://www.htnetworks.com.kh/,,1,0,1
+855,Y,ISPTec,ISPTEC Sistemas de Comunicacao Ltda ,177.10.200.0/22,Campina Grande - PB,BR,South America,Ethernet,noc@isptec.net.br,558391442654,noc@isptec.net.br,558391442654,www.siptec.com.br,,1,0,1
+856,Y,VRZ-IX,Voronezh Internet Exchange,194.85.21.0/24,Voronezh,RU,Europe,Ethernet,msk-ix-noc@ripn.net,+7 495 7379296,msk-ix-noc@ripn.net,+7 495 7379296,www.ix.ru,,1,1,1
+857,Y,G2NETSUL,G2NET SUL PROVEDOR LTDA,,CAXIAS DO SUL,BR,South America,Multiple,noc@g2netsul.com.br,5432132677,,,www.g2netsul.com.br,,1,0,0
+858,Y,LTD irida,LTD Irida telecom,91.222.120.0/22,Rostov-on-Don,RU,Europe,Ethernet,network@timernet.ru,+79281080737,network@timernet.ru,+79281080737,timernet.ru,,1,0,1
+859,Y,PTT-CGB,PTT Cuiaba,,Cuiaba/MT,BR,South America,Ethernet,noc@ptt.br,+55 11 5509-3550,info@ptt.br,+55 11 5509 3550,http://ptt.br,,1,0,1
+860,Y,LTD Irida Telecom,Irida Telecom on Rostov on Don,176.96.191.0/24,Rostov-on-Don,RU,Europe,Ethernet,network@timernet.ru,79281080737,network@timernet.ru,79281080737,timernet.ru,,1,0,0
+861,Y,"TRICOM, S.A.",,"186.120.0/17, 186.120.128/17",Dominican Republic / Latin America,DO,North America,Ethernet,ingopcoreip@tricom.com.do,809.476.4141,noctricom@tricom.com.do,809.476.4141,www.tricom.net,,1,0,1
+862,Y,Smart Axiata ," Smart Axiata Co.,Ltd",27.109.112.0/22,Phnom Penh,KH,Asia Pacific,Ethernet,it.net@smart.com.kh,85510201618,,,www.smart.com.kh,,1,0,0
+863,Y,VANIX,Vancouver internet Exchange,206.41.104.0/24,Vancouver,CA,North America,Ethernet,,,connect@vanix.ca,,http://www.vanix.ca,,1,0,1
+864,Y,BR-IX,Brno University of Technology,"185.1.25.0/24, 2001:7f8:87::/64",Brno,CZ,Europe,Ethernet,br-ix@vutbr.cz,+420 54415453,br-ix@vutbr.cz,+420 54415453,,,1,1,1
+865,Y,Host Palace Internet Services,Host Palace Ltd,103.252.220.0/22,Rotterdam,NL,Europe,Ethernet,sultan@host-palace.com,+91-0-7384944677,peering@host-palace.com,+91-0-7384944677,https://host-palace.com/,,1,0,1
+866,Y,SH-IX,SMARTHUB Internet Exchange,185.1.15.0/24,"Fujairah, UAE",AE,Middle East,Ethernet,noc@emix.ne.ae,+971 6 7037278,moyahiya@etisalat.ae,+971 4 3717236,http://www.smarthubix.ae/,,1,0,1
+867,Y,OCIX Frankfurt,OpenCarrier eG Member-IX Frankfurt,194.54.93.0/25,Frankfurt,DE,Europe,Ethernet,noc@opencarrier.eu,+49-211-6355640-11,info@opencarrier.eu,+49-211-6355640-10,http://www.opencarrier.eu/,,1,0,1
+868,Y,GCN,Global Communication Net Plc.,,Bulgaria,BG,Europe,Ethernet,pdulev@gcn.bg,359882960028,,,http://www.gcn.bg/,,1,1,1
+869,Y,OhioIX,,"216.69.204.0/24, 2605:4400:4::/64",Ohio,US,North America,Ethernet,ticketsystem@ohioix.net,614.388.9830,info@ohioix.net,,http://www.ohioix.net,,1,0,1
+870,Y,PESATnet,PT Pasifik Satelit Nusantara - ISP,202.95.128.0/19,Jakarta,ID,Asia Pacific,Multiple,bsetiawan@psn.co.id,021-5762292,hostmaster@pesat.net.id,021-5762292,www.psn.co.id,,1,0,1
+871,Y,OndaNet LTDA,OndaNet LTDA,,Junco do Serido,BR,South America,Multiple,marcelo.mjm@entrenaonda.com.br,+558396673938,marcelo.mjm@entrenaonda.com.br,+558396673938,http://www.entrenaonda.com.br,,1,0,1
+874,Y,PESATID-APJII-ID-20040625,PESATnet IPv6,2001:f20::/32,JAKARTA,ID,Asia Pacific,Ethernet,budi@pesat.net.id,+62215762292,core@pesat.net.id,,www.pesat.net.id,,0,0,1
+875,Y,NicIX,Nice Internet eXchange,,Nice,FR,Europe,Ethernet,,,,,www.nicix.net,,1,1,1
+876,Y,RED-IX,,185.1.13.0/24,Krasnoyarsk,RU,Europe,Ethernet,ix-noc@webra.ru,,ix-adm@webra.ru,,webra.ru,,1,0,1
+877,Y,PHIX,Philippine Internet Exchange,,Metro Manila,PH,Asia Pacific,Ethernet,,,,,www.pldt.com.ph,,1,0,0
+878,Y,PHIX-AP,Philippine Internet Exchange,,Metro Manila,PH,Asia Pacific,Ethernet,,,,,www.pldt.com.ph,,1,0,0
+880,Y,France-IX Marseille,France-IX Marseille,"37.49.232.0/26, 2a00:a4c0:2000::/64",Marseille,FR,Europe,Ethernet,noc@franceix.net,,info@franceix.net,,https://www.franceix.net,https://www.franceix.net/en/technical/traffic-statistics/,1,0,1
+881,Y,Lillix,Northern France and Eurometropolis GIX,193.34.197.128/25,Lille/North of France,FR,Europe,Ethernet,contact@lillix.fr,,contact@lillix.fr,,http://www.lillix.fr,,1,0,1
+883,Y,Life,Life ServiÃ§os de ComunicaÃ§Ã£o Multimidia,179.96.131.1,MarÃ­lia,BR,South America,Ethernet,engenharia@life.net.br,(14)3402-9700,engenharia@life.net.br,,www.life.com.br,,1,0,0
+886,Y,Westcom,Westcom,,Saint-Petersburg,RU,Europe,Ethernet,3365007@simflex.ru,+7 (812) 3365007,3365007@simflex.ru,+7 (812) 3365007,www.westcom.spb.ru,,0,0,0
+887,Y,C3 TELECOM,M.I. INTERNET LTDA,,NOVA BRESCIA/ RS,BR,South America,Multiple,noc@c3telecom.com.br,55 51 3757 1120,noc@c3telecom.com.br,55 51 3757 1120,www.c3telecom.com.br,,1,0,1
+888,Y,Cool Ideas,Cool Ideas Service Provider,154.0.0.0/20,Johannesburg,ZA,Africa,Ethernet,paul@cisp.co.za,+27105932665,paul@cisp.co.za,+27105932665,www.cisp.co.za,,1,0,0
+889,Y,Viettel (Cambodia),,117.120.24.0/21,PhnomPenh,KH,Asia Pacific,Ethernet,tuva1@viettel.com.vn,+855977068079,,,www.metfone.com.kh,,1,0,0
+890,Y,MTW.RU,MediaSoft Expert,,Moscow/Russia,RU,Europe,Ethernet,noc@mtw.ru,+7 (495) 729-57-34,info@mtw.ru,+7 (495) 737-56-85,http://mtw.ru,,1,0,1
+891,Y,DTN,"dtac TriNet  Co., Ltd",,Bangkok,TH,Asia Pacific,Ethernet,,,,,http://www.dtac.co.th/,,1,0,0
+894,Y,Tigo Costa Rica,Amnet Cable Costa Rica,186.176.0.0/16,Costa Rica,CR,North America,Ethernet,jonathan.cisneros@TIGO.CO.CR,+506  60800749 ,,,www.tigo.co.cr,,1,0,0
+895,Y,Delta.BG,Deta Sofmedya Ltd,195.189.80.0/22,Sofia,BG,Europe,Ethernet,support@delta.bg,35924484165,drago@delta.bg,359895669979,http://delta.bg,,1,0,1
+896,Y,IXP Mexicano,IXP Mexicano,,Mexico City,MX,North America,Ethernet,,,ccasasus@cudi.edu.mx,,http://www.ixp.mx/,,1,0,1
+897,Y,SDI,PT. Sumberdata Indonesia,"103.10.120.0-103.10.123.255, 103.11.28.0-103.11.31.255,116.68.160-116.68.195.255",Jakarta,ID,Asia Pacific,Multiple,bunga@sdi.net.id,+628158158884,bunga@sdi.net.id,+628158158884,http://www.sdi.net.id,,1,0,1
+899,Y,MULTIDATA-ID-AP,PT Multidata Rancana Prima,202.72.192.0/20,Jakarta,ID,Asia Pacific,Multiple,bunga@multidata.net.id,+628158158884,bunga@multidata.net.id,+628158158884,http://www.multidata.net.id,,1,0,1
+904,Y,CABASE-LPL,CABASE NAP La Plata,200.115.81.0/24,La Plata,AR,South America,Ethernet,noc@cabase.org.ar,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+906,Y,HFXIX,Halifax Internet Exchange,206.130.15.0/24,Halifax,CA,North America,Ethernet,noc@hfxix.ca,+1-902-456-3457,admin@hfxix.ca,+1-902-456-3457,www.hfxix.ca,,1,0,1
+909,Y,BBIX Hong Kong / Singapore,BroadBand Internet eXchange Hong Kong / Singapore,IPv4:103.231.152.0/22  IPv6:2001:df5:b800:bb00::/64,Hong Kong / Singapore,HK,Asia Pacific,Ethernet,bbix-sales@bbix.net,+81-3-6889-9257,bbix-sales@bbix.net,+81-3-6889-9257,http://www.bbix.net/en/,,1,0,1
+911,Y,CABASE-POS,CABASE NAP Posadas,200.115.83.0/24,Posadas,AR,South America,Ethernet,noc@cabase.org.ar,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+912,Y,CAMIX,Cameroon Internet Exchange Point,,Yaounde,CM,Africa,Ethernet,,,,,,,1,1,1
+916,Y,CitraIX,Citranet Internet Exchange (CIX),,Yogyakarta,ID,Asia Pacific,Ethernet,peering@citra.net.id,+62274553066,peering@citra.net.id,+62274553066,http://www.citra.net.id/,,1,0,0
+918,Y,TREX-VLA,trex-vla,191.91.28.0/22,Villa La Angostura,AR,South America,Multiple,noc@trex-vla.com.ar,542944488406,noc@trex-vla.com.ar,542944488406,www.trex-vla.com.ar,,1,0,0
+919,Y,Directnet Prestacao de Servicos Ltda,,,SAO PAULO,BR,South America,Ethernet,engip@neovia.com.br,,,,www.neovia.com.br,,1,0,0
+920,Y,COPELCO Ltda,"COPELCO, COOPERATIVA DE PROVISIÃ’N DE SERVICIOS PÃšBLICOS, CRÃ‰DITO Y VIVIENDA CUTRAL CÃ“ LTDA",190.104.64/20  190.112.196/22  190.113.236/22    ,Cutral Co,AR,South America,Ethernet,soporte@copelnet.com.ar,02994960016,tecnicos@copelnet.com.ar,02994960016,www.copelnet.com.ar,,1,0,0
+922,Y,WHK-IX,Windhoek Internet Exchange Point,196.223.35.0/24,Windhoek,NA,Africa,Ethernet,marius@ixp.org.na,+264833001333,schalk@ixp.org.na,+264833001333,wiki.ixp.org.na,,1,0,1
+927,Y,OI,BrasilTelecom/Telemar/Pegasus,,CuiabÃ¡-MT,BR,South America,Multiple,,,,,,,1,0,1
+928,Y,GVT,,,Primavera do Leste-MT,BR,South America,Multiple,,,,,,,0,0,0
+929,Y,Embratel,,,Rondonopolis-MT,BR,South America,Multiple,,,,,,,1,0,1
+930,Y,CABASE-NQN,CABASE NAP NeuquÃ©n/Patagonia,200.0.19.0/24,NeuquÃ©n,AR,South America,Ethernet,ctneuquen@cabase.org.ar,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+933,Y,ARIU,AsociaciÃ³n Redes de InterconexiÃ³n Universitaria,170.210.0.0/16,Argentina,AR,South America,Ethernet,admin@riu.edu.ar,,,,http://www.riu.edu.ar/,,1,1,1
+935,Y,AMS-IX BAY,AMS-IX Bay Area,2001:504:3d:1::/64,"San Francisco, San Jose",US,North America,Ethernet,noc@us.ams-ix.net,+1 212 461 4815,info@us.ams-ix.net,+1 212 461 4768,bay.ams-ix.net,,1,0,1
+938,Y,TahoeIX,Tahoe Internet Exchange,,Northern Nevada,US,North America,Ethernet,info@tahoeix.org,+1 775 284-0383,info@tahoeix.org,,http://www.tahoeix.org,,1,0,1
+940,Y,TTIX,Trinidad and Tobago Internet Exchange,188.188.0.240/28,Barataria,TT,South America,Ethernet,kuprescod@columbus.co,18683611979,kuprescod@columbus.co,18683611979,http://ix.tt,,1,0,0
+944,Y,AMS-IX Chicago,AMS-IX Chicago,206.108.115.0/24   2001:504:38::/48,Chicago,US,North America,Ethernet,noc@us.ams-ix.net,+1 212 461 4815,info@us.ams-ix.net,+1 212 461 4768,https://chi.ams-ix.net,https://chi.ams-ix.net/statistics,1,0,1
+945,Y,CABASE-ROS,CABASE NAP Rosario,200.13.83.0/24,Rosario,AR,South America,Ethernet,napros@cabase.org.ar,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+948,Y,Equinix Osaka,Equinix Osaka,,Osaka,JP,Asia Pacific,Ethernet,,,,,http://www.equinix.co.jp/,,1,0,1
+954,Y,FL-IX,FL-IX - The South Florida Internet Exchange,,Miami,US,North America,Ethernet,noc@fl-ix.net,+1 855-4FLIX-IX,info@fl-ix.net,+1 855-4FLIX-IX,https://www.fl-ix.net/,https://my.fl-ix.net/ixp_peering-flix-agg-bits-month.png,1,1,1
+957,Y,MiamiIX,Miami Internet Exchange,198.78.5.0/24,"Miami, Florida",US,North America,Ethernet,noc@miamiix.net,+1 305-663-5518 option 2,info@miamiix.net,+1 305-663-5518  232,http://www.miamiix.net,,1,0,1
+965,Y,MegaIX Singapore,Megaport MegaIX Singapore,103.41.12.0/22 2001:ded::/64,Singapore,SG,Asia Pacific,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5999,http://www.megaport.com,,1,0,1
+967,Y,DjIX,The Djibouti Internet Exchange,196.223.38.0/24 and 2001:43f8:09c0:1000::/48,Djibouti,DJ,Africa,Ethernet,noc@djiboutidatacenter.com,+253 21350735,info@djiboutidatacenter.com,+253 21350735,http://www.djiboutidatacenter.com/,,1,0,1
+969,Y,NAPAfrica IX Durban,NAPAfrica IX Durban,,Durban,ZA,Africa,Ethernet,andrew@teraco.co.za,+27860837226,michele@teraco.co.za,+27860837226,http://www.napafrica.net/napafrica-traffic/durban-internet-exchange/,http://www.napafrica.net/napafrica-traffic/,1,1,1
+971,Y,VIX.VU,Vanuatu Internet Exchange,103.25.229.0/24,Port Vila,VU,Asia Pacific,Ethernet,jtambeana@vanuatu.gov.vu,+678-7753018,jtambeana@vanuatu.gov.vu,+678-7753018,http://vix.vu,,1,0,1
+976,Y,IX Australia ACT,Australian Capital Territory,218.100.54.128/25,Canberra/ACT,AU,Australia,Ethernet,peering@ix.asn.au,1300 793 320,peering@ix.asn.au,1300 793 320,http://www.ix.asn.au,,1,0,1
+977,Y,AKL-IX,Auckland Internet Exchange ,43.243.21.0/24,Auckland,NZ,Australia,Ethernet,peering@akl-ix.nz,,peering@akl-ix.nz,,www.akl-ix.nz,,1,0,1
+978,Y,MADACOM SRL,NETFLY,/21,Buenos Aires / Argentina,AR,South America,Multiple,sbarrientos@netfly.com.ar,+54 0221 453233,soportetecnico@mdisoluciones.com.ar,+54 0221 453233,http://www.netfly.com.ar,,1,0,0
+980,Y,CITYNETHOST,CityNet Telekom,,Istanbul,TR,Europe,Ethernet,peering@citynethost.com,+90 212 8540 146,,,http://www.citynethost.com,,1,0,1
+981,Y,Fortunat PJSC,"Private Join Stock Company ""FORTUNAT""  ",91.238.5.0/24,Kyiv/Ukraine,UA,Europe,Ethernet,admin@fortunat.kiev.ua,+380444227801,admin@fortunat.kiev.ua,+380444227801,fortunat.kiev.ua,,1,1,0
+983,Y,UNY-IX,Universitas Negeri Yogyakarta Internet Exchange Point,101.203.171.0/24,Yogyakarta,ID,Asia Pacific,Ethernet,arif@uny.ac.id,62274545097,arif@uny.ac.id,62274545097,puskom.uny.ac.id,,1,0,0
+984,Y,MegaIX Auckland,Megaport MegaIX Auckland,43.243.22.0/23,Auckland,NZ,Australia,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5999,http://www.megaport.com,,1,0,1
+985,Y,IX Brighton,Brighton Internet Exchange,,Brighton,GB,Europe,Ethernet,noc@ixbrighton.com,01273806190,,,www.ixbrighton.com,,1,0,1
+986,Y,midwest-ix,Midwest Internet Exchange,199.168.131.0/25,"Indianapolis, Indiana",US,North America,Multiple,support@midwest-ix.com,3176442224,peering@midwest-ix.com,3176442224,http://www.midwest-ix.com,,1,1,1
+987,Y,Wicam,"Wicam Corporation, Co. Ltd.","202.79.24.0/21, 119.15.80.0/20, 49.156.32.0/20, 103.17.212.0/22, 43.245.216.0/22",Cambodia,KH,Asia Pacific,Ethernet,noc@wicam.com.kh,+85578777505,vidol@wicam.com.kh,+85510888561,www.wicam.com.kh,,1,0,1
+988,Y,NetCintra Telecom,NetCintra Telecomunicacoes Ltda,177.72.116.0/22,Vargem Grande Paulista,BR,South America,Multiple,noc@netcintra.com.br,11 4158-3354,netcintra@netcintra.com.br,11 4158-1928,www.netcintra.com.br,,1,0,1
+989,Y,ROILCOM Ltd,,,Moscow,RU,Europe,Ethernet,noc@roilcom.ru,+74957774717,,,http://www.roilcom.ru/,,1,0,1
+990,Y,Webgenium,Webgenium System Ltda,177.66.204.0/22,Cascavel - ParanÃ¡,BR,South America,Ethernet,atendimento@webgenium.com.br,554533336266,atendimento@webgenium.com.br,554533336254,www.webgenium.com.br,,1,0,1
+991,Y,CLINIC NET,Antonio Nogueira de Oliveira ME,201.7.220.0/22,Brasil,BR,South America,Ethernet,falecom@clinic.net.br,(63)9989-4242,noc@clinic.net.br,(94)3431-3177,http://www.clinic.net.br,,1,0,0
+992,Y,Supramax Tecnologia ,Supramax,177.190.208.1/22,Salgueiro,PE,South America,Ethernet,walace@supramax.com.br,87 3894 2019,walace@supramax.com.br,87 3894 2024,http://www.supramax.com.br,,1,0,1
+993,Y,Palestine Internet Exchange Point - PIX,Palestine Internet Exchange Point,185.1.1.0/24,Ramallah/Palestine,PS,Middle East,Ethernet,smansour@pix.ps,+970599889919,smansour@pix.ps,+970599889919,www.pix.ps,,1,0,1
+995,Y,TecleNet,TecleNet SoluÃ§Ãµes TecnolÃ³gicas,177.200.0.0/20,Forquilhinha/SC,BR,South America,Multiple,noc@teclenet.net,+55 48 96877766,noc@teclenet.net,+55 48 96877766,http://www.teclenet.net,,1,0,1
+996,Y,GCCIT,MASARAT telecom,"86.111.144.0/21,185.16.24.0/22",Baghdad,IQ,Middle East,Ethernet,ahmed@gccitcom.com,+9647712042222,ali@gccitcom.com,+9647901321072,www.masaratcom.com,,1,1,1
+999,Y,CrossNet-id,PT Cross Network Indonesia,116.68.248.0/24,Surabaya,ID,Asia Pacific,Ethernet,hostmaster@cross.net.id,,hostmaster@cross.net.id,,www.cross.net.id,,1,0,1
+1000,Y,Coolhousing,Coolhousing s.r.o.,87.236.192.0/21 89.187.128.0/19 46.29.184.0/21 2A01:5F0::/32,Prague,CZ,Europe,Ethernet,info@coolhousing.net,+420777310000,noc@coolhousing.net,+420777310000,http://www.coolhousing.net,,1,0,1
+1002,Y,RVA-IX,Richmond Virginia Internet Exchange,,Ashland,US,North America,Ethernet,noc@rva-ix.net,804-537-0096,info@rva-ix.net,804-537-0096,rva-ix.net,,1,0,1
+1006,Y,DET-IX,Detroit Internet Exchange,"209.124.52.0/23, 2607:f790:100::/64",Detroit,US,North America,Ethernet,noc@detroitix.com,+1 800.227.1957,info@detroitix.com,+1 800.227.1957,www.detroitix.com,stats.detroitix.com,1,0,1
+1007,Y,angonix,Angola Internet Exchange Point,,Luanda,AO,Africa,Ethernet,support@angonix.net,,support@angonix.net,,http://angonix.net/,http://angonix.net/about-angonix/statistics/,1,0,1
+1009,Y,Tirol-IX,Tirol-IX Internet Exchange,213.47.212.0/24,Innsbruck/Tirol,AT,Europe,Ethernet,noc@tirol-ix.at,+43-5223-5855-154,oper@tirol-ix.at,,http://tirol-ix.at/,http://tirol-ix.at/,1,0,1
+1013,Y,NOVO NIX,NOVOCOM NIX,,DHAKA,BD,Asia Pacific,Ethernet,abu.naser@novocom-bd.com,,abu.naser@novocom-bd.com,,http://www.novonix.net.bd,,1,0,1
+1014,Y,Bnet Network,PT. Sakti Putra Mandiri,121.100.24.0/24,Palembang,ID,Asia Pacific,Ethernet,luthfi@saktiputramandiri.net.id,,,,www.saktiputramandiri.net.id,,1,1,0
+1015,Y,Justweb Telecom,Justweb TelecomunicaÃ§oes LTDA,138.0.172.0/22,RibeirÃ£o das Neves,BR,South America,Ethernet,contato@justweb.com.br,+55 313017-7112,,,www.justweb.com.br,,1,1,1
+1016,Y,IXCardiff,IXCardiff powered by LINX,195.66.228.0/24,Cardiff,GB,Europe,Ethernet,noc@linx.net,+44 20 7645 3535,support@linx.net,+44 20 7645 3535,https://www.linx.net/,,1,1,1
+1017,Y,BENIN-IX,BENIN-IX,196.223.40.0/24,Cotonou,BJ,Africa,Ethernet,support@benin-ix.org.bj,,policy@benin-ix.org.bj,,www.benin-ix.org.bj,,1,0,0
+1018,Y,Delta Connect,Delta Connect,201.150.124.0/22,Parnaiba,BR,South America,Multiple,deltaconnect@deltaconnect.com.br,+55 86 3323 3139,deltaconnect@deltaconnect.com.br,+55 86 3323 3139,http://www.deltaconnect.com.br/,,1,0,0
+1019,Y,AuvernIX,,"2001:7f8:81::/48, 185.1.2.0/24",Clermont-Ferrand,FR,Europe,Ethernet,tech@auvernix.org,+33.761.029.186,connect@auvernix.org,+33.761.029.186,auvernix.org,,1,1,1
+1020,Y,YARA DOS SANTOS BARREIRO -ME,PROVEDOR,191.37.64.0/22,Sao Paulo,BR,South America,Ethernet,,+55 11 34245300,fabianoalexds@bol.com.br,,http://www.wimaxprovedor.com.br,,1,0,0
+1023,Y,CRIX,Costa Rica,200.107.83.0/24,San Jose,CR,North America,Ethernet,soporteix@crix.cr,+506 2280.6453,infoix@crix.cr,+506 2280.6453,http://www.crix.cr,,1,0,1
+1024,Y,KOSIX,Kosova Internet Exchange,,Prishtina,XK,Europe,Ethernet,dardan.behluli@ipko.com,+38138700621,dardan.behluli@ipko.com,+38138700621,www.kosix.net,,1,0,0
+1025,Y,BKNIX,Bangkok Neutral Internet Exchange,203.159.68.0/23,Bangkok,TH,Asia Pacific,Ethernet,net-eng@bknix.co.th,+662 107 1538,info@bknix.co.th,,https://bknix.co.th,https://bknix.co.th/en/statistics,1,0,1
+1026,Y,Equinix Melbourne,Equinix Melbourne,183.177.61.0/24,Melbourne,AU,Australia,Ethernet,ap-noc@ap.equinix.com,+65-67238833,peering@ap.equinix.com,+612.8337.2000,https://ix.equinix.com,,1,0,1
+1027,Y,RICTA,Rwanda Information & Communication Technology Association,196.223.12.0/24,kigali,RW,Africa,Multiple,noc@ricta.org.rw,+250255120674,info@ricta.org.rw,+250255120674,www.ricta.org.rw,,1,0,0
+1028,Y,Nap Peru,Nap Peru,206.223.130.0/24,Lima,PE,South America,ATM,fidel.mendoza@claro.com.pe,5112136300,info@nap.pe,5114718340,www.nap.pe,,1,0,1
+1029,Y,Fregat,Fregat,46.98.0.0/16,Dniepropetrovsk,UA,Europe,Ethernet,noc@fregat.net,,peering@fregat.net,,www.fregat.com,,1,0,0
+1032,Y,RINEX,Rwanda Internet Exchange,"196.223.12.0/24, 2001:43f8:0150::/48",Kigali,RW,Africa,Ethernet,,+250 788309212,,,http://www.rinex.org.rw,http://www.rinex.org.rw/mrtg/aggregate_traffic.html,1,0,1
+1033,Y,Claro Puerto Rico,Claro Puerto Rico,,San Juan,US,North America,Ethernet,braulio.santos@claropr.com,7877748000 x 2386,braulio.santos@claropr.com,7877748000 x 2386,www.clarotodo.com,,1,1,0
+1034,Y,VeeTIME,Vee TIME Corp.,,Taipei,TW,Asia Pacific,Multiple,m2310@emax.net.tw,+886423112178,m2310@emax.net.tw,+886423112178,http://www.veetime.com/,,1,0,1
+1036,Y,Digital Communication ltd.,Digital Communication ltd.,1024,Gaza,PS,Middle East,Ethernet,support@dcc.ps,+972599465070,info@dcc.ps,+972599465070,http://www.dcc.ps,,1,0,1
+1037,Y,MegaIX Hong Kong,Megaport MegaIX Hong Kong,103.48.48.0/23,Hong Kong,HK,Asia Pacific,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5999,http://www.megaport.com,,1,0,1
+1038,Y,NashIX,Nashville Internet Exchange,,Nashville,US,North America,Ethernet,peering@nashix.net,+1 415-307-7324,peering@nashix.net,+1 415-307-7324,http://nashix.net,,1,0,1
+1039,Y,"Dtac Network Co., Ltd. ",DTN,124.40.224.0/20,Bangkok,TH,Asia Pacific,Multiple,noc-fe-ip@dtac.co.th,+66816480002,noc-fe-ip@dtac.co.th,+66816480002,www.dtac.co.th,,1,0,0
+1040,Y,NormandIX,NormandIX,,Normandy ,FR,Europe,Ethernet,,,,,,,1,0,1
+1042,Y,NAP.EC-GYE,NAP.EC Guayaquil,,Guayaquil/GYE,EC,South America,Ethernet,soporte@nap.ec,+593 2 225 2495,info@nap.ec,+593 2 225 2495,http://www.nap.ec,,1,0,1
+1044,Y,CONECTNET TELECOM,CONECTNET TELECOMUNICAÃ‡Ã•ES LTDA,177.73.24.0/21; 177.136.208.0/21,NOVA HARTZ/RS,BR,South America,Ethernet,jonas@conectnet.net,0155195105205,conectnet@conectnet.net,0155195105205,www.conectnet.net,,1,0,1
+1045,Y,CGIX,Congo Internet eXchange,19-.223.32.0/24,Brazzaville,CG,Africa,Ethernet,pascal.MOUANDZA@arpce.cg,+242066838126,,,www.cgix-congo.cg,,1,1,0
+1046,Y,Congo Internet eXchange,Congo Internet eXchange,196.223.32.0/24,Congo Brazzaville,CG,Africa,Ethernet,pascal.MOUANDZA@arpce.cg,+242066838126,pascal.MOUANDZA@arpce.cg,+242066838126,www.cgix-congo.cg,,1,1,0
+1048,Y,SITCO-EVV,SITCO Evansville-IN,74.112.208.0/21,Evansville,US,North America,Ethernet,tkolb@sitcosolutions.com,8124733600,tkolb@sitcosolutions.com,8124733600,www.sitcosolutions.com,,1,0,0
+1049,Y,Playnet,,209.144.109.0/24,Texas,US,North America,Ethernet,,,,,,,0,0,0
+1050,Y,Certto,Certto Telecom,,Cascavel/PR,BR,South America,Multiple,noc@certto.com.br,+55 45 33332100,bgp@certto.com.br,+55 45 33332100,http://www.certto.com.br,,1,0,1
+1051,Y,PacIX-HK,Pacswitch Internet Exchange (HK),,HongKong,HK,Asia Pacific,Ethernet,noc@pacswitch.com,+852-21174211,noc@pacswitch.com,+852-21174211,www.pacswitch.com,,1,0,1
+1052,Y,SIXP,Serekunda Internet Exchange Point,"196.223.34.0/24, 196.49.1.0/27",Serekunda,GM,Africa,Ethernet,tech@sixp.gm,+220 396 1000,admin@sixp.gm,+220 3100103,www.sixp.gm,,1,0,0
+1054,Y,TranshybridIX,Transhybrid Xchange,202.79.197.199,Jakarta,ID,Asia Pacific,Ethernet,noc@transhybrid.net.id,+622127655998,arief@transhybrid.net.id,+622127655998,PT. Transh Hybrid Communication,,1,0,0
+1055,Y,Somcable S.A.S,Somcable,41.79.196.0/22,Hargeisa,SO,Africa,Multiple,ahmed.yassin@somcable.com,+252634707186,info@somcable.com,+25321346618,www.somcable.com,,1,0,0
+1056,Y,OM-NIX,,91.212.235.0/24,Sofia,BG,Europe,Ethernet,,,,,http://www.om-nix.net/,,1,0,0
+1058,Y,LiveAir Tulsa IX,LiveAir Tulsa IX,,Tulsa,US,North America,Ethernet,clientcare@liveair.net,5123604273,jwb@liveair.net,5123604273,www.liveair.net,,1,0,1
+1061,Y,PRBI-IX,Puerto Rico Bridge Initiative,,"San Juan, Puerto Rico",US,North America,Ethernet,hlopez@criticalhub.com,787-728-9790,cmarazzi@criticalhub.com,787-728-9793,www.prbridgeinitiative.org,,1,0,1
+1062,Y,NETWORK ACCESS POINT DEL CARIBE - DR,NAP del Caribe,,Santo Domingo / Latin America,DO,North America,Ethernet,peering@napdelcaribe.com.do,809.985.3724,peering@napdelcaribe.com.do,809.985.3724,www.napdelcaribe.net.do,,1,1,0
+1063,Y,PT.Pastindo Sejahtera Bersama,PT.Pastindo Sejahtera Bersama,114.6.53.0/28,Medan,ID,Asia Pacific,Ethernet,support@pastindo.com,+628218219,info@pastindo.com,+628218219,http://www.pastindo.net,,1,0,0
+1064,Y,Pros-Services,,"89.187.216.0/24,89.187.217.0/24,89.187.219.0/24,89.187.220.0/24,89.187.221.0/24,89.187.222.0/24,89.187.223.0/24",Beirut,LB,Middle East,Multiple,it@pros-services.net,96170940246,policy@pros-services.net,,www.pros-services.net,,1,0,0
+1065,Y,Invista Net,Invista Net Provedor de Acesso Ltda ,,Vista Alegre do Alto,BR,South America,Ethernet,silvanei@invistanet.com.br,16981038080,silvanei@invistanet.com.br,16-3287-9940,www.invistanet.com.br,,1,1,1
+1066,Y,CABASE-BHB,CABASE NAP BahÃ­a Blanca,200.14.37.0/24,BahÃ­a Blanca,AR,South America,Ethernet,,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+1067,Y,CABASE-COR,CABASE NAP CÃ³rdoba,200.14.75.0/24,CÃ³rdoba,AR,South America,Ethernet,,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+1068,Y,CABASE-DLC,CABASE NAP De La Costa,200.14.39.0/24,De La Costa,AR,South America,Ethernet,,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+1069,Y,CABASE-MDQ,CABASE NAP Mar Del Plata,200.115.82.0/24,Mar Del Plata,AR,South America,Ethernet,,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+1070,Y,CABASE-MZA,CABASE NAP Mendoza,200.14.38.0/24,Mendoza,AR,South America,Ethernet,,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+1071,Y,CABASE-PMY,CABASE NAP Puerto Madryn,,Puerto Madryn,AR,South America,Ethernet,,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+1072,Y,CABASE-SFE,CABASE NAP Santa FÃ©,200.14.74.0/24,Santa FÃ©,AR,South America,Ethernet,,+54-11-4326-0777,info@cabase.org.ar,+54-11-4326-0777,http://www.cabase.org.ar/,NULL,1,1,1
+1073,Y,SAIX,Salzburg Internet eXchange - SAIX,185.1.43.0/24 2001:7f8:11::/48,Salzburg,AT,Europe,Ethernet,s.kaltenbrunner@conova.com,+43 (0) 662 2200 315,s.kaltenbrunner@conova.com,+43 (0) 662 2200 315,https://www.saix.at/,,1,0,1
+1074,Y,SIXP GAMBIA,SEREKUNDA INTERNET EXCHANGE POINT,196.223.34.0/24,"SEREKUNDA,THE GAMBIA",GM,Africa,Ethernet,support@sixp.gm,+220 3100144,tech@sixp.gm,+220 3100103,www.sixp.gm,,1,0,1
+1075,Y,WIFIX,WIFI eXchange point,91.227.194.0/24,Paris,FR,Europe,Ethernet,noc@wireless-fr.org,+33651260488,noc@wireless-fr.org,+33651260488,http://wireless-fr.org/,,1,0,0
+1076,Y,Smalloon ,PT Rizky Data Jaya,,"Jakarta, Indonesia",ID,Asia Pacific,Ethernet,technical@smalloon.com,+62 21 29552787,technical@smalloon.com,+62 21 29552787,www.smalloon.co,,1,0,1
+1077,Y,OCT-NET,OCT Internet Service,202.220.160.0/19,"Oita, Japan",JP,Asia Pacific,Ethernet,,,,,,,1,0,0
+1079,Y,Fireline - FiberXC,Fireline Fiber and Cross Connect,104.192.114.0/24,Los Angeles,US,North America,Ethernet,noc@firelinebroadband.com,323-465-6772,noc@firelinebroadband.com,323-465-6772,http://www.FirelineBroadband.com,,1,0,1
+1080,Y,I-Blog,,180.253.31.165,Sumedang,ID,Asia Pacific,Ethernet,a2.1300107@mhs.stmik-sumedang.ac.id,+6289686233966,a2.1300107@mhs.stmik-sumedang.ac.id,+6289686233966,I-Blog1,,1,0,0
+1082,Y,DFT,DongFong Technology Co. Ltd.,116.50.32.0/20,Taipei/Taiwan,TW,Asia Pacific,Ethernet,noc@dongfong.com.tw,+886-2-2791-9800,noc@dongfong.com.tw,+886-2-2791-9800,ming@dongfong.com.tw,,1,0,0
+1083,Y,WICOM INTERNET,Empresa de Servicios y Aplicaciones Tecnologicas SRL,131.255.180/22,Alejandro Korn / Buenos Aires,AR,South America,Ethernet,administracion@grupoesat.com.ar,54 2225 426024,administracion@grupoesat.com.ar,54 2225 426078,www.wicom.com.ar,,1,0,0
+1084,Y,Digital Fortress Inc.,,,Tukwila,US,North America,Ethernet,netops@dfcolo.com,,,,http://dfcolo.com,,1,0,0
+1085,Y,AlsardFiber,Alsard Fiber,AS39216,Sulaymanieh,IQ,Middle East,Multiple,noc@alsardfiber.com,+9647501253333,noc@alsardfiber.com,+9647501253333,www.alsardfiber.com,,1,0,1
+1086,Y,Mass-IX,Massachusetts Internet Exchange,206.53.143.0/24,Boston/MA,US,North America,Ethernet,ops@mass-ix.net,+1 617-849-7278,sales@mass-ix.net,+1 617-849-7278,www.mass-ix.net,http://www.mass-ix.net/#stats,1,0,1
+1088,Y,Global-IX,Global-IX,109.239.136.0/23 and 2001:b28:3ff::/64,Saint Petersburg,RU,Europe,Ethernet,noc@gblnet.ru,+7 812 676-50-00,info@global-ix.ru,+7 812 676-50-00,http://global-ix.ru/en,,1,0,1
+1089,Y,T-CIX,T-CIX,"185.1.40.0/24, 2001:7F8:98::/64",Bulgaria / Europe,BG,Europe,Ethernet,,,,,http://www.t-cix.net,,1,0,1
+1090,Y,mp,"medianusa permana, pt",103.21.204/22,Batam / Kepulauan Riau,ID,Asia Pacific,Ethernet,idris@permana.net.id,+62 778 468817,,,www.permana.net.id,,1,0,0
+1091,Y,ALBtelecom sh.a,ALBtelecom Albania,79.106.0.0/16,Tirana,AL,Europe,Multiple,Skender.Koltraka@albtelecom.al,+355672020180,Skender.Koltraka@albtelecom.al,+355672020180,albtelecom.al,,1,1,1
+1092,Y,ALBtelecom1 sh.a,ALBtelecom Albania,217.24.240.0/22,Tirana,AL,Europe,Multiple,Skender.Koltraka@albtelecom.al,+355672020180,Skender.Koltraka@albtelecom.al,+355672020180,albtelecom.al,,1,1,0
+1093,Y,Railwire,railwire express network,10.0.0.0,Jamtara,IN,Asia Pacific,Ethernet,jh.support@railwire.co.in,+91 77810 02700,jh.connect@railwire.co.in,+91 77810 02700,http://railwire.co.in/,,1,1,1
+1094,Y,GE-CIX,Global Internet Exchange & Peering Network,80.94.94.0/23,Zurich,CH,Europe,Ethernet,noc@ge-cix.net,+41(0)586801052,office@ge-cix.net,+41(0)586801052,http://www.ge-cix.net/,http://www.ge-cix.net/get-connected/asns/,1,0,1
+1095,Y,IIX-RI,Riau Internet Exchange Point,103.54.2.0/23,Pekanbaru / Riau,ID,Asia Pacific,Ethernet,christian@wanxp.com,628153721300,christian@wanxp.com,628153721300,www.wanxp.net.id,,1,1,0
+1097,Y,TELEKABEL,Trgovsko radiodifuzno drustvo kablovska televizija ROBI DOOEL Stip,89.205.0.0/17,Skopje,MK,Europe,Ethernet,noc@robi.com.mk,+38932612612,,,www.telekabel.com.mk,,1,0,0
+1098,Y,Indiana IX,,68.233.47.0/24,South Bend,US,North America,Ethernet,,,,,,,1,0,0
+1099,Y,ExcellMedia,,202.133.48.0/20,Hyderabad,IN,Asia Pacific,Multiple,raj@excellmedia.net,+91-9849166439,info@excellmedia.net,,http://www.excellmedia.net/,,1,0,1
+1100,Y,ExcellMedia2,,202.133.32.0/20,Hyderabad,IN,Asia Pacific,Multiple,raj@excellmedia.net,+91-9849166439,info@excellmedia.net,,http://www.excellmedia.net/,,1,0,1
+1101,Y,ExcellMedia-3,,175.101.0.0/16,Hyderabad,IN,Asia Pacific,Multiple,raj@excellmedia.net,+91-9849166439,info@excellmedia.net,,http://www.excellmedia.net/,,1,0,1
+1102,Y,EXCHANGE ADVERTISING COMPANY,,103.31.220.0/22,KOWLOON,HK,Asia Pacific,Ethernet,info@exadv.com.hk,,,,http://www.exadv.com.hk,,1,1,1
+1103,Y,Radiant,Radiant Communications Limited,"122.102.32.0/21, 210.1.240.0/20, 43.231.20.0/22, 120.50.176.0/21, 103.240.44.0/22, 103.20.180.0/22, 103.14.128.0/22, 103.247.44.",Dhaka,BD,Asia Pacific,Ethernet,support@radiantbd.com,+8801732843584,nahid@radiantbd.com,+8801713453137,www.radiantbd.com,,1,0,0
+1104,Y,BBNL,Bangalore Broadband Network Pvt Ltd,"124.40.244.0/22,103.5.132.0/22,43.247.156.0/22,43.247.159.0/24",Bangalore/Karnataka,IN,Asia Pacific,Ethernet,arunrao@bbnl.co.in,918095596997,arunrao@bbnl.co.in,918095596997,bbnl.co.in,,1,0,1
+1105,Y,TunIXP,Tunisia Internet Exchange Point,,Tunis,TN,Africa,Ethernet,,,,,,,1,0,1
+1111,Y,Example,Example IX,,Example,US,North America,Ethernet,,,,,,,1,0,1
+1113,Y,indocyber,PT. Arthatama Adhiprima Persada,103.31.132.0/22,DKI Jakarta,ID,Asia Pacific,Multiple,support@mediaindocyber.net,+62 21 6615201,guntur@mediaindocyber.net,+62 21 99668100,indocyber.net.id,,1,0,0
+1115,Y,IXPN,Internet eXchange Point of Nigeria,196.216.148.0/22,Lagos,ng,Africa,Multiple,info@ixp.net.ng,+234-8093878110,info@ixp.net.ng,+234-8093878110,ixp.net.ng,,1,0,0
+1117,Y,CyrusOne IX Sterling,CyrusOne Internet Exchange,,Sterling Virginia,US,North America,Ethernet,peering@cyrusone.com,786-493-4764 (Bill Williams Cell),snowhorn@cyrusone.com,305-205-8327 (Josh Snowhorn Cell),www.cyrusone.com,,1,0,1
+1123,Y,IXP-HN,Internet Exchange Point Honduras,,Tegucigalpa,HN,South America,Ethernet,,,,,http://www.ixp.hn/,,1,0,0
+1127,Y,MARTINIX,,194.254.208.128/27,Fort-de-France,MQ,Europe,Ethernet,support@renaterix.fr,+ 33 1 53 94 20 40,contact@renaterix.fr,+ 33 4 67 16 38 23,https://www.renater.fr/martinix,,1,0,0
+1131,Y,DE-CIX Palermo,"DE-CIX, the Palermo Internet Exchange",185.1.46.0/24 + 2001:7f8:32::/48,Palermo,IT,Europe,Ethernet,support@de-cix.net,+49 69 1730 902 11,sales@de-cix.net,+49 69 1730 902 12,https://www.de-cix.net/products-services/de-cix-palermo/,,1,0,1
+1133,Y,BurundiX,Burundi Internet Exchange Point,196.49.3.0/24,Burundi,BI,Africa,Ethernet,adelard.kenese@gmail.com,+25776800950 +25768040506,adelard.kenese@gmail.com,+25776800950 +25768040506,www.burundix.bi,,1,0,0
+1134,Y,Guyanix,,194.57.235.192/26,Cayenne,GF,South America,Ethernet,contact@renaterix.fr,,contact@renaterix.fr,,https://www.renater.fr/guyanix?lang=fr,,1,0,1
+1137,Y,TSK IX,Tomsk Internet eXchange by NTS,82.117.167.0/24,Tomsk,RU,Europe,Ethernet,noc@tskix.ru,+7(3822)910695,noc@tskix.ru,+7(3822)910695,http://tskix.ru,http://tskix.ru/site/page?view=statistics,1,0,1
+1138,Y,Cymru UTRS,Cymru Unwanted Traffic Removal Service,,"Lake Mary, FL",US,North America,Ethernet,outreach@cymru.com,+1 847 378-3301,outreach@cymru.com,+1 847 378-3301,https://www.team-cymru.org/UTRS/,,1,0,0
+1139,Y,Cymru BOGONS,Cymru Bogon Router Server Project,,"Lake Mary, FL",US,North America,Ethernet,bogonrs@cymru.com,+1 847 378-3301,bogonrs@cymru.com,+1 847 378-3301,https://www.team-cymru.org/bogon-reference-bgp.html,,1,0,1
+1142,Y,CyrusOne IX Chicago,CyrusOne Internet Exchange,,Chicago,US,North America,Ethernet,peering@cyrusone.com,786-493-4764 (Bill Williams Cell),snowhorn@cyrusone.com,305-205-8327 (Josh Snowhorn Cell),www.cyrusone.com,,1,0,1
+1146,Y,ESPANIX Upper LAN,Espana Internet Exchange Upper LAN,,Madrid,ES,Europe,Ethernet,,,admision@espanix.net,+34 91 637 0853,http://www.espanix.net,http://mrtg.espanix.net/espanix/espanix.html,1,0,1
+1148,Y,SkyNET,"JSC ""Penkiu kontinentu komunikaciju centras""",84.240.1.0/24,Vilnius,LT,Europe,Ethernet,network@skynet.lt,+37052664518,network@skynet.lt,+37052664518,http://www.skynet.lt/,,1,1,0
+1149,Y,DE-CIX Marseille,"DE-CIX, the Marseille Internet Exchange",185.1.47.0/24,Marseille,FR,Europe,Ethernet,support@de-cix.net,+49 69 1730 902 11,,,https://www.de-cix.net,,1,0,1
+1150,Y,DE-CIX Istanbul,"DE-CIX, the Istanbul Internet Exchange",185.1.48.0/24,Istanbul,TR,Europe,Ethernet,support@de-cix.net,+49 69 1730 902 11,,,https://www.de-cix.net,,1,0,1
+1151,Y,CentraIIX,Central Internet Exchange,172.20.0.0,Bremen/Germany,DE,Europe,Multiple,a-d@consultix.net,+49421333880,a-d@consultix.net,+49421333880,www.centralIX.net,,1,0,1
+1152,Y,Newroz Telecom,Newroz Telecom Ltd.,,Erbil,IQ,Middle East,Ethernet,noc@newroztelecom.com,+9647507603683,ahmed.erfan@newroztelecom.com,+9642204444,www.newroztelecom.com,,1,0,1
+1153,Y,Turbo SP,fernandolv,,SertÃ£ozinho,Br,South America,ATM,fernando@turbosp.com.br,,fernando@turbosp.com.br,16981694439,,,1,0,1
+1154,Y,SFO-IX,"Milecom LLC, project SFO-IX",91.221.180.0/23,Barnaul,RU,Europe,Ethernet,tech@milecom.ru,,,,www.milecom.ru,,1,0,0
+1156,Y,United Peering - UP-IXP,United Peering - free and open peering (UP-IXP),"185.1.54.0/24, 2001:7f8:95::/48",Wuppertal,DE,Europe,Multiple,noc@dolphin-it.de,,noc@dolphin-it.de,,https://united-peering.net/,,1,1,1
+1160,Y,NIXVAL-IXP,Neutral Internet Exchange Valencia,,Valencia,ES,Europe,Ethernet,noc@nixval.com,,ixp@nixval.com,,www.nixval.com,,1,0,1
+1168,Y,Kherson Traffic Exchange,Kherson Traffic Exchange,185.1.39.0/24,Kherson,UA,Europe,Ethernet,noc@ix.ks.ua,+380552442441,admin@ix.ks.ua,+380552442443,http://ix.ks.ua,,1,0,0
+1169,Y,YEGIX,YEGIX Internet Exchange Community Ltd.,,Edmonton,CA,North America,Ethernet,peering@yegix.ca,,peering@yegix.ca,,http://www.yegix.ca/,http://www.yegix.ca/,1,0,1
+1171,Y,KIVIX,Chisinau Internet Exchange,185.1.45.0/24,Chisinau,MD,Europe,Ethernet,support@trabia.com,+373 22 994-994,noc@trabia.com,+373 22 994-994,www.kivix.net (soon; currently: http://lg.kivix.net),,1,0,1
+1172,Y,CHN-IX,CHN-IX,106.48.32.0-106.48.63.255,Beijing,CN,Asia Pacific,Ethernet,info@chn-ix.net,+861064085738,info@chn-ix.net,+861064085738,www.chn-ix.net,,1,0,1
+1174,Y,MegaIX Seattle,Megaport MegaIX Seattle,206.53.171.0/24,Seattle,US,North America,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5996,https://www.megaport.com,,1,0,1
+1175,Y,MegaIX Los Angeles,Megaport MegaIX Los Angeles,206.53.172.0/24,Los Angeles,US,North America,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5996,https://www.megaport.com,,1,0,1
+1176,Y,MegaIX Bay Area,Megaport MegaIX Bay Area,206.53.169.0/24,San Jose,US,North America,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5996,https://www.megaport.com,,1,0,1
+1177,Y,MegaIX Chicago,Megaport MegaIX Chicago,206.53.168.0/24,Chicago,US,North America,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5996,https://www.megaport.com,,1,0,1
+1178,Y,MegaIX Ashburn,Megaport MegaIX Ashburn,206.53.170.0/24,Ashburn,US,North America,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5996,https://www.megaport.com,,1,0,1
+1179,Y,MegaIX New York,Megaport MegaIX New York,206.53.173.0/24,New York,US,North America,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5996,https://www.megaport.com,,1,0,1
+1180,Y,MegaIX Dallas,Megaport MegaIX Dallas,206.53.174.0/24,Dallas,US,North America,Ethernet,support@megaport.com,+61 7 3088 5996,info@megaport.com,+61 7 3088 5996,https://www.megaport.com,,1,0,1
+1181,Y,IIX-IL,Israeli Internet Exchange,,Petah Tikva,IL,Middle East,Multiple,info@isoc.org.il,+972 3 9700900,info@isoc.org.il,+972 3 9700900,www.iix.net.il,,1,0,0
+1183,Y,6NGIX,KISA 6NGIX Center,203.254.32.72,Seoul,KR,Asia Pacific,Ethernet,6ngix@kisa.or.kr,,,,http://vsix.kr,,1,0,1
+1187,Y,SYMC-IX,Symphony Internet Exchange,103.14.9.0/24,Bangkok,TH,Asia Pacific,Ethernet,ipnoc@symphony.net.th,+6621011100,peering@symphony.net.th,+6621011111,http://www.symphony.net.th,,1,0,1
+1188,Y,TC-IX,Telecom Cambodia,,Phnom Penh,KH,Asia Pacific,Ethernet,vannath@camnet.com.kh,+85512622288,app_report@camnet.com.kh,+85523720798,http://www.tc.com.kh,,1,1,1
+1191,Y,SerinIX IX,SerinIX Internet Exchange,195.135.199.0/24,Kiev,UA,Europe,Ethernet,tech@serinix.com,+380442251207,peering@serinix.com,+380442251207,www.serinix.com,,1,0,0
