@@ -6,11 +6,15 @@ from sklearn.feature_selection import VarianceThreshold
 from sklearn import preprocessing
 from sklearn.utils import shuffle
 from sklearn.naive_bayes import GaussianNB
+from sklearn import tree
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree.export import export_text
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import recall_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
+import tensorflow as tf
 
 # aka_peer_participants
 # notes_public_peer_participants
@@ -89,10 +93,9 @@ def encode_features(lst):
 
 def p1_process(df):
     # get only the columns we need for ml
-    data = df[['asn_peer_participants', 'info_traffic_peer_participants', 'info_ratio_peer_participants', 'info_scope_peer_participants', 'info_prefixes_peer_participants', 'policy_general_peer_participants', 'policy_locations_peer_participants', 'policy_ratio_peer_participants', 'policy_contracts_peer_participants', 'info_type_peer_participants']]
+    data = df[['asn_peer_participants', 'facility_id_mgmt_public_facilities', 'public_id_mgmt_public_facilities', 'public_id_mgmt_publics_ips', 'local_asn_peer_participants_privates', 'info_traffic_peer_participants', 'info_ratio_peer_participants', 'info_scope_peer_participants', 'info_prefixes_peer_participants', 'policy_general_peer_participants', 'policy_locations_peer_participants', 'policy_ratio_peer_participants', 'policy_contracts_peer_participants', 'info_type_peer_participants']]
 
-    # delete all rows that do not have asn
-    data = data[pd.notnull(df['asn_peer_participants'])]
+    # data = data[pd.notnull(df['asn_peer_participants'])]
 
     # delete all rows with nans
     data = data.dropna(axis=0)
@@ -123,6 +126,19 @@ def p1_process(df):
     encoded_col = encode_features(data['policy_contracts_peer_participants'].tolist())
     data['policy_contracts_peer_participants'] = encoded_col
 
+    encoded_col = encode_features(data['facility_id_mgmt_public_facilities'].tolist())
+    data['facility_id_mgmt_public_facilities'] = encoded_col
+
+    encoded_col = encode_features(data['public_id_mgmt_public_facilities'].tolist())
+    data['public_id_mgmt_public_facilities'] = encoded_col
+
+    encoded_col = encode_features(data['public_id_mgmt_publics_ips'].tolist())
+    data['public_id_mgmt_publics_ips'] = encoded_col
+
+    encoded_col = encode_features(data['local_asn_peer_participants_privates'].tolist())
+    data['local_asn_peer_participants_privates'] = encoded_col
+
+    # encode labels
     encoded_col = encode_features(data['info_type_peer_participants'].tolist())
     data['info_type_peer_participants'] = encoded_col
 
@@ -261,16 +277,28 @@ def random_forest(df):
     print('RF recall = %f' %rfrecall)
     print('RF F-score = %f' %rffscore)
 
-if __name__ == "__main__":
-    path = 'master.csv'
-    df = pd.read_csv(path)
-    df = p1_process(df)
+def ann(df):
     
-    # df = variance_fs(df)
-    df = tree_fs(df)
+    labels = df['type'].tolist()
+    data = df.drop(columns=['type'])
+    num_labels = len(set(labels))  # get number of unique labels
+    num_features = len(list(data.columns))  # get number of unique features
 
-    df = p2_process(df)
-    random_forest(df)
+    data = data.values.tolist()
+
+    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.3, random_state=0) 
+    
+    ### Artificial Neural Net ###
+    model = tf.keras.models.Sequential([tf.keras.layers.Dense(num_features, activation='relu'), tf.keras.layers.Dense(100, activation='relu'), tf.keras.layers.Dense(num_labels, activation='softmax')])
+    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    model.fit(train_data, train_labels, epochs=5, verbose=2)
+    predictions = model.predict(test_data)
+    scores = model.evaluate(test_data, test_labels, verbose=2)
+
+def test(df):
+    df = df[pd.notnull(df['asn_peer_participants'])]
+    print(df.shape)
+
 
 if __name__ == "__main__":
     path = 'master.csv'
@@ -278,8 +306,13 @@ if __name__ == "__main__":
     df = p1_process(df)
     
     df = variance_fs(df)
+    # df = tree_fs(df)
+
     df = p2_process(df)
-    naive_bayes(df)
+    # random_forest(df)
+    # naive_bayes(df)
+    # decision_tree(df)
+    # ann(df)
 
 
 
