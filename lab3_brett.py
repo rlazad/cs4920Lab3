@@ -214,6 +214,64 @@ def naive_bayes(df):
     print('GNB recall = %f' %gnb_recall)
     print('GNB F-score = %f' %gnb_fscore)
 
+def decision_tree(df):
+    labels = df['type'].tolist()
+    data = df.drop(columns=['type'])
+    features = list(data.columns)
+
+    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.3, random_state=0)  
+
+    ### Decision Tree ###
+    d_tree = tree.DecisionTreeClassifier()
+    model = d_tree.fit(train_data, train_labels)
+    pred = model.predict(test_data, test_labels)
+
+    taccuracy = accuracy_score(test_labels, pred)
+    tprecision = precision_score(test_labels, pred, average='macro')
+    trecall = recall_score(test_labels, pred, average='macro')
+    tfscore = f1_score(test_labels, pred, average='macro')
+    print('DTree accuracy = %f' %taccuracy)
+    print('DTree precision = %f' %tprecision)
+    print('DTree recall = %f' %trecall)
+    print('DTree F-score = %f' %tfscore)
+
+    # generate visual representation of decision tree
+    r = export_text(model, feature_names=features)
+    txt = open('decision_tree.txt', 'w')
+    txt.write(r)
+    txt.close()
+
+def random_forest(df):
+    labels = df['type'].tolist()
+    data = df.drop(columns=['type'])
+
+    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.3, random_state=0)  
+
+    ### Random Forest ###
+    rf = RandomForestClassifier(random_state=0)
+    model = rf.fit(train_data, train_labels)
+    pred = model.predict(test_data)
+
+    rfaccuracy = accuracy_score(test_labels, pred)
+    rfprecision = precision_score(test_labels, pred, average='macro')
+    rfrecall = recall_score(test_labels, pred, average='macro')
+    rffscore = f1_score(test_labels, pred, average='macro')
+    print('RF accuracy = %f' %rfaccuracy)
+    print('RF precision = %f' %rfprecision)
+    print('RF recall = %f' %rfrecall)
+    print('RF F-score = %f' %rffscore)
+
+if __name__ == "__main__":
+    path = 'master.csv'
+    df = pd.read_csv(path)
+    df = p1_process(df)
+    
+    # df = variance_fs(df)
+    df = tree_fs(df)
+
+    df = p2_process(df)
+    random_forest(df)
+
 if __name__ == "__main__":
     path = 'master.csv'
     df = pd.read_csv(path)
