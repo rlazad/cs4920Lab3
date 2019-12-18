@@ -1,0 +1,142 @@
+
+\documentclass[11pt]{article}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+%use this as a template only... you may not need the subsections,
+%or lists however they are placed in the document to show you how 
+%do it if needed.
+
+%THINGS TO REMEMBER
+%to compile a latex document - latex filename.tex
+%to view the document        - xdvi filename.dvi
+%to create a ps document     - dvips filename.dvi
+%to create a pdf document    - dvipdf filename.dvi
+%{\bf TEXT}                  - bold font TEXT
+%{\it TEXT}                  - italic TEXT
+%$ ... $                     - places ... in math mode on same line
+%$$ ... $$                   - places ... in math mode on new line
+%more info at www.cs.wm.edu/~mliskov/cs423_fall04/tex.html
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%begins a LaTeX document
+%\newcommand\tab[1][1.5cm]{\hspace*{#1}}
+\setlength{\parindent}{4em}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{Naval Postgraduate School \\ CS4920: Machine Learning in Data Networks \\ Professor: Robert Beverly}
+\fancyhead[R]{Handout 14 \\December 18, 2019 \\}
+\vspace{10mm}
+\begin{document}
+\vspace{10mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%insert the date
+%insert your name
+%insert the lecture title in place of the placeholders
+
+\setlength{\oddsidemargin}{.25in}
+\setlength{\evensidemargin}{.25in}
+\setlength{\textwidth}{6in}
+\setlength{\topmargin}{-0.4in}
+\setlength{\textheight}{8.5in}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{10mm}
+\centerline{\huge\bfseries Lab 3}
+
+\section{Preface}
+
+This lab focuses on examining automated system (AS) attributes in order to classify them according to their business type. Identifying the types of organizations who control ASes is important from a research perspective in order to better understand the structure and topology of the internet. AS classification also has many practical business and economic implications; allowing us to better understand the economic interests that drive the structure and reliability of the internet.
+\vspace*{5mm}
+
+\textbf{There are 19 questions in the lab. Submit your written lab report, including
+your program code, via the CLE Sakai site by November 25, 2019.}
+
+\section{Data}
+PeeringDB.com is a database of networks maintained by volunteers, researchers, and practitioners in the field.  The Center for Applied Internet Data Analysis (CAIDA) is an organization that conducts network research (http://www.caida.org/home/).  CAIDA collected and archived AS snapshots from 2013 to 2016 (http://www.caida.org/data/peeringdb/) to support AS classification research and testing.  The original snapshots were archived in SQL and SQLITE.  Your professor downloaded the most recent AS snapshot and converted to a CSV to facilitate your assignment.
+
+\subsection{ Digging into the data}
+We would like to better understand our dataset.  Download the AS data.  Write a Python program to answer the following questions.
+
+\begin{enumerate}
+
+\item How many features are in the data?
+
+\item How many unique ASes are in the data?
+
+\item As a result of the SQL join used to construct his data, some of column headers in the CSV are not intuitive.  Take a look at the column titled \verb|“info_traffic”| and \verb|“info_ratio”|.  
+In a few sentences, explain what you think these columns identify for each AS.
+
+\item Each AS has an associated unique identifier called an AS number (ASN).  Let’s take a closer look at AS 286.  How many prefixes does AS 286 provide?  What is its business type?  What is its city, state, and zip code?
+
+\item How current (up-to-date) is our data?  Do some informal research on AS 286 and see if its current data matches what you found in question 4.
+
+\item For this lab we will focus on classifying ASes according to their business type.  The AS business type can be found in \verb|“info_type”|.  How many unique ASes are there for each business type?  
+\end{enumerate}
+
+\begin{flushleft}
+For the purposes of this lab, we will focus on the following three business types:  A, B, and C.  You will need to remove all records categorized as different business types from the data.
+\end{flushleft}
+
+\begin{enumerate}[resume]
+\item How many unique ASes are left in the data?
+
+\item Plot a bar graph of the number of IP prefixes versus type of peer participant for the three remaining labels.
+
+\item Remove column \verb|“info_traffic”| and \verb|“info_prefixes|, what are your results now?  Explain why?
+\end{enumerate}
+
+\section{Feature selection}
+A critical part of data preparation and machine learning is feature selection.  As you should have observed, our data is full of extraneous detail as it relates to business type classification.  
+\begin{enumerate}[resume]
+
+\item Based on your intuition, which features can we safely remove from our data?  Explain why.  A good place to start is by identifying the feature columns that are free-form text and non-standard (mixed data type) inputs.
+
+\item Again, based on your intuition, which features do you think are valuable (features we want to keep) for a model in classifying an ASes business type?  Explain why.
+
+\item “info traffic” is certainly a good feature to use for AS classification.  Write a python program to standardize these values for each AS and remove any ASes that do not provide this data.
+\end{enumerate}
+
+\begin{flushleft}
+Before continuing, remove the features you identified in question 10.  Write a python program to remove cases with blank entries.  Lastly, write a python program that (for all features) maps each unique feature value to an integer.  For example, for \verb|“info_ratio_peer_participants”|, Balanced = 0, Mostly Inbound = 1, Mostly Outbound = 2.
+\end{flushleft}
+
+\begin{enumerate}[resume]
+\item After removing the unimportant features and the cases with blank entries in your remaining features, how many cases are in the data?
+\end{enumerate}
+
+\begin{flushleft}
+Feature selection and dimensionality reduction can be done in a more scientific manner using variance, recursive methods, and decision trees, for example. 
+Check out scikit-learn’s feature selection module at {\verb|(https://scikit-learn.org/stable/modules/feature_selection.html)|}.
+\end{flushleft}
+
+\begin{enumerate}[resume]
+
+\item Eliminate all features from the data whose variance is lower than 0.9.  Try it with a variance threshold of 0.75 and 0.5.  Which features were removed for each variance threshold?  Explain your results.
+
+\item Tree-based estimators can also be used to compute feature importance and remove unnecessary features from a dataset.  Using a tree-based estimator, rank the importance of the data features from most important to least important.  Explain your results.
+
+\item Use a tree-based estimator to remove unnecessary features from the data.  Which features were removed.  Explain your results.
+\end{enumerate}
+
+\begin{flushleft}
+Take some time to experiment with feature selection and elimination. Create a personalized version of our data with at least four important features.
+\end{flushleft}
+
+\section{Machine learning}
+Let’s see if how well we can predict an AS type based on the features we have selected.  First, you should normalize your data matrix. This means looking at the range of values for a given column and scaling the values of that column such that they lie between [0, 1].  Also, shuffle your data before proceeding.
+
+\begin{enumerate}[resume]
+\item Using scikit-learn, write a program that uses Gaussian Naïve Bayes (GNB) to build a model.  Split the data and train on 80\% and test on 20\%.  What accuracy, precision, and recall do you achieve with GNB?
+
+\item Using scikit-learn, write a program that uses a decision tree to build a model.  Again, split the data and train on 80\% and test on 20\%.  What accuracy, precision, and recall do you achieve with the decision tree?
+
+\item Using scikit-learn, write a program that uses a random forest to build a model.  Again, split the data and train on 80\% and test on 20\%.  What accuracy, precision, and recall do you achieve with the random forest?
+\end{enumerate}
+
+\end{document}
