@@ -16,14 +16,6 @@ from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 
-# aka_peer_participants
-# notes_public_peer_participants
-# notes_private_peer_participants
-# irr_as_set_peer_particpiants
-# info_scope_peer_particpiants
-# info_type_peer_particpiants (labels)
-# info_prefixes_peer_particpiants
-
 
 def conv_traffic(df):
     df = df[~df['info_traffic_peer_participants'].isin(['Not Disclosed', 0])]
@@ -93,54 +85,28 @@ def encode_features(lst):
 
 def p1_process(df):
     # get only the columns we need for ml
-    data = df[['asn_peer_participants', 'facility_id_mgmt_public_facilities', 'public_id_mgmt_public_facilities', 'public_id_mgmt_publics_ips', 'local_asn_peer_participants_privates', 'info_traffic_peer_participants', 'info_ratio_peer_participants', 'info_scope_peer_participants', 'info_prefixes_peer_participants', 'policy_general_peer_participants', 'policy_locations_peer_participants', 'policy_ratio_peer_participants', 'policy_contracts_peer_participants', 'info_type_peer_participants']]
+    data = df[['asn_peer_participants', 'proto_unicast_mgmt_publics', \
+                'public_id_mgmt_publics_ips', 'proto_multicast_mgmt_publics', \
+                'info_traffic_peer_participants', 'info_ratio_peer_participants', \
+                'info_scope_peer_participants', 'info_prefixes_peer_participants', \
+                'policy_general_peer_participants', 'policy_locations_peer_participants', \
+                'policy_ratio_peer_participants', 'policy_contracts_peer_participants', \
+                'proto_ipv6_mgmt_publics', 'info_type_peer_participants']]              
 
-    # data = data[pd.notnull(df['asn_peer_participants'])]
+    data = data.dropna(axis=0)  # delete all rows with nans
+    data = data.replace(['Not Disclosed'], np.nan).dropna(axis=0)
+    data = conv_traffic(data)   # convert traffic to floats
 
-    # delete all rows with nans
-    data = data.dropna(axis=0)
+    to_encode_list = ['info_ratio_peer_participants', 'info_scope_peer_participants', \
+                    'policy_general_peer_participants', 'policy_locations_peer_participants', \
+                    'policy_ratio_peer_participants', 'policy_contracts_peer_participants', \
+                    'info_type_peer_participants']
+    
+    for col in to_encode_list:
+        encoded_col = encode_features(data[col].tolist())
+        data[col] = encoded_col
 
-    # convert traffic to floats
-    data = conv_traffic(data)
-
-    # encode ratio column
-    encoded_col = encode_features(data['info_ratio_peer_participants'].tolist())
-    data['info_ratio_peer_participants'] = encoded_col
-
-    # encode scope column
-    encoded_col = encode_features(data['info_scope_peer_participants'].tolist())
-    data['info_scope_peer_participants'] = encoded_col
-
-    # encode general
-    encoded_col = encode_features(data['policy_general_peer_participants'].tolist())
-    data['policy_general_peer_participants'] = encoded_col
-
-    # encode locations
-    encoded_col = encode_features(data['policy_locations_peer_participants'].tolist())
-    data['policy_locations_peer_participants'] = encoded_col
-
-    # encode policy ration
-    encoded_col = encode_features(data['policy_ratio_peer_participants'].tolist())
-    data['policy_ratio_peer_participants'] = encoded_col
-
-    encoded_col = encode_features(data['policy_contracts_peer_participants'].tolist())
-    data['policy_contracts_peer_participants'] = encoded_col
-
-    encoded_col = encode_features(data['facility_id_mgmt_public_facilities'].tolist())
-    data['facility_id_mgmt_public_facilities'] = encoded_col
-
-    encoded_col = encode_features(data['public_id_mgmt_public_facilities'].tolist())
-    data['public_id_mgmt_public_facilities'] = encoded_col
-
-    encoded_col = encode_features(data['public_id_mgmt_publics_ips'].tolist())
-    data['public_id_mgmt_publics_ips'] = encoded_col
-
-    encoded_col = encode_features(data['local_asn_peer_participants_privates'].tolist())
-    data['local_asn_peer_participants_privates'] = encoded_col
-
-    # encode labels
-    encoded_col = encode_features(data['info_type_peer_participants'].tolist())
-    data['info_type_peer_participants'] = encoded_col
+    print(data.shape)
 
     return data
 
@@ -156,7 +122,6 @@ def tree_fs(df):
 
     model = SelectFromModel(clf, prefit=True)
     new_data = data[data.columns[model.get_support(indices=True)]]
-    # print(new_data.shape)
     new_cols = set(new_data.columns)
 
     removed_col = old_cols.difference(new_cols)
@@ -174,7 +139,7 @@ def variance_fs(df):
     data = df.drop(columns=['info_type_peer_participants'])
     old_cols = set(data.columns)
 
-    sel = VarianceThreshold(threshold=(0.9 * (1 - 0.9)))
+    sel = VarianceThreshold(threshold=(0.8 * (1 - 0.8)))
 
     sel.fit(data)
     new_data = data[data.columns[sel.get_support(indices=True)]]
@@ -207,6 +172,7 @@ def p2_process(df):
     tup = df.shape
     col = tup[1]
     df.insert(col, 'type', labels)
+
     return df
 
 def naive_bayes(df):
@@ -214,7 +180,7 @@ def naive_bayes(df):
     data = df.drop(columns=['type'])
     features = list(df.columns)
 
-    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.3, random_state=0)  
+    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.25, random_state=0)  
 
     # Gaussian Naive Bayes
     gnb = GaussianNB()
@@ -222,9 +188,9 @@ def naive_bayes(df):
     pred = model.predict(test_data)
 
     gnb_accuracy = accuracy_score(test_labels, pred)
-    gnb_precision = precision_score(test_labels, pred, average='macro')
-    gnb_recall = recall_score(test_labels, pred, average='macro')
-    gnb_fscore = f1_score(test_labels, pred, average='macro')
+    gnb_precision = precision_score(test_labels, pred, average='weighted')
+    gnb_recall = recall_score(test_labels, pred, average='weighted')
+    gnb_fscore = f1_score(test_labels, pred, average='weighted')
     print('GNB accuracy = %f' %gnb_accuracy)
     print('GNB precision = %f' %gnb_precision)
     print('GNB recall = %f' %gnb_recall)
@@ -235,7 +201,7 @@ def decision_tree(df):
     data = df.drop(columns=['type'])
     features = list(data.columns)
 
-    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.3, random_state=0)  
+    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.25, random_state=0)  
 
     ### Decision Tree ###
     d_tree = tree.DecisionTreeClassifier()
@@ -243,9 +209,9 @@ def decision_tree(df):
     pred = model.predict(test_data, test_labels)
 
     taccuracy = accuracy_score(test_labels, pred)
-    tprecision = precision_score(test_labels, pred, average='macro')
-    trecall = recall_score(test_labels, pred, average='macro')
-    tfscore = f1_score(test_labels, pred, average='macro')
+    tprecision = precision_score(test_labels, pred, average='weighted')
+    trecall = recall_score(test_labels, pred, average='weighted')
+    tfscore = f1_score(test_labels, pred, average='weighted')
     print('DTree accuracy = %f' %taccuracy)
     print('DTree precision = %f' %tprecision)
     print('DTree recall = %f' %trecall)
@@ -261,7 +227,7 @@ def random_forest(df):
     labels = df['type'].tolist()
     data = df.drop(columns=['type'])
 
-    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.3, random_state=0)  
+    train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.25, random_state=0)  
 
     ### Random Forest ###
     rf = RandomForestClassifier(random_state=0)
@@ -269,9 +235,9 @@ def random_forest(df):
     pred = model.predict(test_data)
 
     rfaccuracy = accuracy_score(test_labels, pred)
-    rfprecision = precision_score(test_labels, pred, average='macro')
-    rfrecall = recall_score(test_labels, pred, average='macro')
-    rffscore = f1_score(test_labels, pred, average='macro')
+    rfprecision = precision_score(test_labels, pred, average='weighted')
+    rfrecall = recall_score(test_labels, pred, average='weighted')
+    rffscore = f1_score(test_labels, pred, average='weighted')
     print('RF accuracy = %f' %rfaccuracy)
     print('RF precision = %f' %rfprecision)
     print('RF recall = %f' %rfrecall)
@@ -296,23 +262,38 @@ def ann(df):
     scores = model.evaluate(test_data, test_labels, verbose=2)
 
 def test(df):
-    df = df[pd.notnull(df['asn_peer_participants'])]
-    print(df.shape)
+    label_dict = {}
+    nan_count = 0
+    for i in range(len(df)):
+        if df.loc[i, 'info_type_peer_participants'] != df.loc[i, 'info_type_peer_participants']:
+            nan_count += 1
+        else:
+            if df.loc[i, 'info_type_peer_participants'] not in label_dict:
+                label_dict[df.loc[i,'info_type_peer_participants']] = 1
+            else:
+                label_dict[df.loc[i,'info_type_peer_participants']] += 1
+    print(label_dict)
+    print(nan_count)
 
 
 if __name__ == "__main__":
     path = 'master.csv'
     df = pd.read_csv(path)
+
     df = p1_process(df)
     
-    df = variance_fs(df)
-    # df = tree_fs(df)
+    # df = variance_fs(df)
+    df = tree_fs(df)
 
     df = p2_process(df)
-    # random_forest(df)
+    
+    random_forest(df)
     # naive_bayes(df)
     # decision_tree(df)
     # ann(df)
+
+    # need to know what three labels we're focusing on.
+    # need to know how removing NaN's
 
 
 
